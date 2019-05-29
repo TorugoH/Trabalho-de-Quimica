@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <canvas class="line-chart"></canvas>
+
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.5.0/Chart.bundle.js"></script>
+
+
+    <script type="text/javascript">
+      var ctx=document.getElementsByClassName("line-chart");
+      var chartGraph = new Chart(ctx,{
+        type:'line',
+        data:{
+          labels:["t","m","n"],
+          datasets:[{
+            label:"temperatura",
+            data:[1,2,3,4,5],
+            borderWidth:6,
+            borderColor:'rgba(77,166,253,0.85)',
+            backgroundColor:'transparent',
+          }]
+        }
+
+      });
+
+    </script>
+  </body>
+</html>
