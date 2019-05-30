@@ -173,7 +173,82 @@
             </div>
           </div>
           <!--terceiro-->
+          <div class="card" style="width: 18rem;">
+            <img src="atom.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Lidio</h5>
+                <p class="card-text">Unico elemento metalico encontrado em forma liquida em ambiente.</p>
+                <ul>
+                  <li><!--primeiro botao -->
+                    <button type="button" id="ola" class="btn btn-primary" data-toggle="modal" data-target="#lidio">
+                      onde no dia a dia<!--coloca o titulo do topico-->
+                    </button>
+                    <!-- Modal -->
+                    <div class="modal fade" id="lidio" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                      <div class="modal-dialog" role="document">
+                        <div class="modal-content">
+                          <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLabel">Modal title</h5><!--titulo do modals-->
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><!--botao para fechar-->
+                              <span aria-hidden="true">&times;</span>
+                              </button>
+                            </div>
+                              <div id="oi"class="modal-body"><!--conteudo do modal-->
+                                  <p>pode ser encotrado nos celulares</p>
+                           </div>
+                          <div class="modal-footer">
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </li>
 
+                <li><!--botao do grafico -->
+                      <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#graficosilico">
+                    Grafico
+                  </button>
+                  <div class="modal fade" id="graficosilico" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog" role="document">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h5 class="modal-title" id="exampleModalLabel">Grafico</h5><!--titulo do modals-->
+                          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                          </button>
+                        </div>
+                        <div class="modal-body"><!--conteudo do modal-->
+                          <canvas class="line-chart"></canvas>
+                          <p>grafico de temperatura por tempo</p>
+                      </div>
+                      </div>
+                    </div>
+                  </div>
+                </li>
+                <li>
+                  <!--terceiro botao-->
+                  <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#si">
+                topico
+              </button>
+              <div class="modal fade" id="si" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog" role="document">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title" id="exampleModalLabel">Grafico</h5><!--titulo do modals-->
+                      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                      </button>
+                    </div>
+                    <div class="modal-body"><!--conteudo do modal-->
+                      <p>g</p>
+                  </div>
+                  </div>
+                </div>
+              </div>
+                </li>
+                </ul>
+              </div>
+            </div>
+          <!--quarto elemto-->
     </main>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.5.0/Chart.bundle.min.js"></script>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
@@ -186,30 +261,22 @@
 
 
     })
-    /*js para teste
-    let ola=document.querySelector("#ola");
-    let oi=document.querySelector("#oi");
-    let p=document.querySelector(".l");
-    ola.addEventListener('click',function(){
-      oi.innerHTML='ola';
-    });*/
-
     //Grafico. se colocar em outor arquivo ele n aparece
     var ctx=document.getElementsByClassName("line-chart");
     var chartGraph = new Chart(ctx,{
       type:'line',
       data:{
-        labels:["0","1","2","3","4","5","6","7","8","9","10"],
+        labels:["0","20","30","40"],
         datasets:[
           {
-          label:"temperatura",
-          data:[1,2,3,4,5],
+          label:"fusao",
+          data:[-37,2,3,4,5],
           borderWidth:6,
           borderColor:'rgba(77,166,253,0.85)',
           backgroundColor:'transparent',
         },
         {
-            label:"suidjsf",
+            label:"ebuliçao,e muito alta para representar graficamente",
           data:[5,4,3,2,1],
           borderWidth:6,
           borderColor:'green',
