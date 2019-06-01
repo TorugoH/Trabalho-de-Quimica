@@ -1,0 +1,75 @@
+nav>h1{
+  text-align: center;
+}
+ul{
+  list-style-type: none;
+}
+#elementoum{
+  position: relative;
+    top: 2em;
+    left: 3em;
+}
+
+#elementodois{
+    position: relative;
+    top: -43em;
+    left: 30em;
+}
+#elementotres{
+    position: relative;
+    top: -85em;
+    left: 65%;
+}
+#elementoquatro{
+  position: relative;
+  top: -75em;
+    left: 3em;
+}
+#elementocinco{
+  position: relative;
+  top: -117em;
+  left: 30em;
+}
+#elementoseis{
+    position: relative;
+      top: -159em;
+    left: 65%;
+}
+#elementosete{
+  position: relative;
+  left: 3em;
+  top: -150em;
+}
+#elementooito{
+  position: relative;
+  left: 30em;
+  top: -192em;
+
+
+}
+#elementonovo{
+  position: relative;
+  top: -234em;
+  left: 65%;
+
+}
+#elementodez{
+  position: relative;
+    top: -230em;
+    left: 3em;
+
+}
+[data-anime]{
+  opacity: 0;
+  transition:.3s;
+}
+[data-anime="left"]{
+  transform:translate3d(-50px,0,0);
+}
+[data-anime="right"]{
+  transform:translate3d(50px,0,0);
+}
+[data-anime].animacao{
+  opacity:1;
+  transform: translate3d(0px,0px,0ṕx);
+}
