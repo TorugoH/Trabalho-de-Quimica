@@ -29,3 +29,30 @@ function escrever(elemento) {
   }
   const titulo = document.querySelector('h1');
   escrever(titulo);
+  //Grafico. se colocar em outor arquivo ele n aparece
+  var ctx=document.getElementsByClassName("line-chart");
+  var chartGraph = new Chart(ctx,{
+    type:'line',
+    data:{
+      labels:["0","20","30","40"],
+      datasets:[
+        {
+        label:"fusao",
+        data:[-37,2,3,4,5],
+        borderWidth:6,
+        borderColor:'rgba(77,166,253,0.85)',
+        backgroundColor:'transparent',
+      },
+      {
+          label:"ebuliçao,e muito alta para representar graficamente",
+        data:[5,4,3,2,1],
+        borderWidth:6,
+        borderColor:'green',
+        backgroundColor:'transparent',
+
+      },
+      ]
+    }
+
+
+  });
