@@ -53,6 +53,290 @@ function escrever(elemento) {
       },
       ]
     }
+  });
+  var ctx=document.getElementsByClassName("lidio");
+  var chartGraph = new Chart(ctx,{
+    type:'line',
+    data:{
+      labels:["0","20","30","40"],
+      datasets:[
+        {
+        label:"fusao",
+        data:[-0,2,0,0,0],
+        borderWidth:6,
+        borderColor:'rgba(77,166,253,0.85)',
+        backgroundColor:'transparent',
+      },
+      {
+          label:"ebuliçao,e muito alta para representar graficamente",
+        data:[1,2,3,4,5],
+        borderWidth:6,
+        borderColor:'green',
+        backgroundColor:'transparent',
+
+      },
+      ]
+    }
 
 
   });
+
+var ctx=document.getElementsByClassName("tt");
+var chartGraph = new Chart(ctx,{
+  type:'line',
+  data:{
+    labels:["0","20","30","40"],
+    datasets:[
+      {
+      label:"fusao",
+      data:[-0,2,0,0,0],
+      borderWidth:6,
+      borderColor:'rgba(77,166,253,0.85)',
+      backgroundColor:'transparent',
+    },
+    {
+        label:"ebuliçao,e muito alta para representar graficamente",
+      data:[1,2,3,4,5],
+      borderWidth:6,
+      borderColor:'green',
+      backgroundColor:'transparent',
+
+    },
+    ]
+  }
+
+
+});
+var ctx=document.getElementsByClassName("qq");
+var chartGraph = new Chart(ctx,{
+  type:'line',
+  data:{
+    labels:["0","20","30","40"],
+    datasets:[
+      {
+      label:"fusao",
+      data:[-0,2,0,0,0],
+      borderWidth:6,
+      borderColor:'rgba(77,166,253,0.85)',
+      backgroundColor:'transparent',
+    },
+    {
+        label:"ebuliçao,e muito alta para representar graficamente",
+      data:[1,2,3,4,5],
+      borderWidth:6,
+      borderColor:'green',
+      backgroundColor:'transparent',
+
+    },
+    ]
+  }
+
+
+});
+
+var ctx=document.getElementsByClassName("qui");
+var chartGraph = new Chart(ctx,{
+  type:'line',
+  data:{
+    labels:["0","20","30","40"],
+    datasets:[
+      {
+      label:"fusao",
+      data:[-0,2,0,0,0],
+      borderWidth:6,
+      borderColor:'rgba(77,166,253,0.85)',
+      backgroundColor:'transparent',
+    },
+    {
+        label:"ebuliçao,e muito alta para representar graficamente",
+      data:[1,2,3,4,5],
+      borderWidth:6,
+      borderColor:'green',
+      backgroundColor:'transparent',
+
+    },
+    ]
+  }
+
+});
+
+var ctx=document.getElementsByClassName("sex");
+var chartGraph = new Chart(ctx,{
+  type:'line',
+  data:{
+    labels:["0","20","30","40"],
+    datasets:[
+      {
+      label:"fusao",
+      data:[-0,2,0,0,0],
+      borderWidth:6,
+      borderColor:'rgba(77,166,253,0.85)',
+      backgroundColor:'transparent',
+    },
+    {
+        label:"ebuliçao,e muito alta para representar graficamente",
+      data:[1,2,3,4,5],
+      borderWidth:6,
+      borderColor:'green',
+      backgroundColor:'transparent',
+
+    },
+    ]
+  }
+
+
+});
+var ctx=document.getElementsByClassName("sext");
+var chartGraph = new Chart(ctx,{
+  type:'line',
+  data:{
+    labels:["0","20","30","40"],
+    datasets:[
+      {
+      label:"fusao",
+      data:[-0,2,0,0,0],
+      borderWidth:6,
+      borderColor:'rgba(77,166,253,0.85)',
+      backgroundColor:'transparent',
+    },
+    {
+        label:"ebuliçao,e muito alta para representar graficamente",
+      data:[1,2,3,4,5],
+      borderWidth:6,
+      borderColor:'green',
+      backgroundColor:'transparent',
+
+    },
+    ]
+  }
+});
+
+var ctx=document.getElementsByClassName("oit");
+var chartGraph = new Chart(ctx,{
+  type:'line',
+  data:{
+    labels:["0","20","30","40"],
+    datasets:[
+      {
+      label:"fusao",
+      data:[-0,2,0,0,0],
+      borderWidth:6,
+      borderColor:'rgba(77,166,253,0.85)',
+      backgroundColor:'transparent',
+    },
+    {
+        label:"ebuliçao,e muito alta para representar graficamente",
+      data:[1,2,3,4,5],
+      borderWidth:6,
+      borderColor:'green',
+      backgroundColor:'transparent',
+
+    },
+    ]
+  }
+
+
+});
+var ctx=document.getElementsByClassName("nov");
+var chartGraph = new Chart(ctx,{
+  type:'line',
+  data:{
+    labels:["0","20","30","40"],
+    datasets:[
+      {
+      label:"fusao",
+      data:[-0,2,0,0,0],
+      borderWidth:6,
+      borderColor:'rgba(77,166,253,0.85)',
+      backgroundColor:'transparent',
+    },
+    {
+        label:"ebuliçao,e muito alta para representar graficamente",
+      data:[1,2,3,4,5],
+      borderWidth:6,
+      borderColor:'green',
+      backgroundColor:'transparent',
+
+    },
+    ]
+  }
+
+
+});
+var ctx=document.getElementsByClassName("dec");
+var chartGraph = new Chart(ctx,{
+  type:'line',
+  data:{
+    labels:["0","20","30","40"],
+    datasets:[
+      {
+      label:"fusao",
+      data:[-0,2,0,0,0],
+      borderWidth:6,
+      borderColor:'rgba(77,166,253,0.85)',
+      backgroundColor:'transparent',
+    },
+    {
+        label:"ebuliçao,e muito alta para representar graficamente",
+      data:[1,2,3,4,5],
+      borderWidth:6,
+      borderColor:'green',
+      backgroundColor:'transparent',
+
+    },
+    ]
+  }
+
+
+});
+var ctx=document.getElementsByClassName("teentwo");
+var chartGraph = new Chart(ctx,{
+  type:'line',
+  data:{
+    labels:["0","20","30","40"],
+    datasets:[
+      {
+      label:"fusao",
+      data:[-0,2,0,0,0],
+      borderWidth:6,
+      borderColor:'rgba(77,166,253,0.85)',
+      backgroundColor:'transparent',
+    },
+    {
+        label:"ebuliçao,e muito alta para representar graficamente",
+      data:[1,2,3,4,5],
+      borderWidth:6,
+      borderColor:'green',
+      backgroundColor:'transparent',
+
+    },
+    ]
+  }
+
+
+});var ctx=document.getElementsByClassName("teentreen");
+var chartGraph = new Chart(ctx,{
+  type:'line',
+  data:{
+    labels:["0","20","30","40"],
+    datasets:[
+      {
+      label:"fusao",
+      data:[-0,2,0,0,0],
+      borderWidth:6,
+      borderColor:'rgba(77,166,253,0.85)',
+      backgroundColor:'transparent',
+    },
+    {
+        label:"ebuliçao,e muito alta para representar graficamente",
+      data:[1,2,3,4,5],
+      borderWidth:6,
+      borderColor:'green',
+      backgroundColor:'transparent',
+
+    },
+    ]
+  }
+
+
+});
