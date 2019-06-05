@@ -38,18 +38,18 @@ function escrever(elemento) {
   var chartGraph = new Chart(ctx,{
     type:'line',
     data:{
-      labels:["T0","T1","T2","T3","T4","T5"],
+      labels:["T0","T1","T2","T3","T4","T5","T6"],
       datasets:[
         {
         label:"fusao",
-        data:[181,130,70,69,50,40],
+        data:[0,181,200,900,1330],
         borderWidth:6,
         borderColor:'rgba(77,166,253,0.85)',
         backgroundColor:'transparent',
       },
       {
           label:"ebuliçao,e muito alta para representar graficamente",
-        data:[181,400,600,800,1000,1330],
+        data:[0,180,200,900,1330,1400],
         borderWidth:6,
         borderColor:'green',
         backgroundColor:'transparent',
@@ -63,18 +63,18 @@ var ctx=document.getElementsByClassName("tt");
 var chartGraph = new Chart(ctx,{
   type:'line',
   data:{
-    labels:["T1","T2","T3","T4","T5"],
+    labels:["T1","T2","T3","T4","T5","T6"],
     datasets:[
       {
       label:"fusao",
-      data:[98,80,60,40,0],
+      data:[0,97.79,200,600,750],
       borderWidth:6,
       borderColor:'rgba(77,166,253,0.85)',
       backgroundColor:'transparent',
     },
     {
         label:"ebuliçao,muito alto",
-      data:[97.79,120,220,320,882.8],
+      data:[0,98,200,600,750,882.8],
       borderWidth:6,
       borderColor:'green',
       backgroundColor:'transparent',
@@ -93,14 +93,14 @@ var chartGraph = new Chart(ctx,{
     datasets:[
       {
       label:"fusao",
-      data:[-0,2,0,0,0],
+      data:[-216,6,100,0,2,0,0,0],
       borderWidth:6,
       borderColor:'rgba(77,166,253,0.85)',
       backgroundColor:'transparent',
     },
     {
         label:"ebuliçao,e muito alta para representar graficamente",
-      data:[1,2,3,4,5],
+      data:[0,2913],
       borderWidth:6,
       borderColor:'green',
       backgroundColor:'transparent',
@@ -120,16 +120,16 @@ var chartGraph = new Chart(ctx,{
     datasets:[
       {
       label:"fusao",
-      data:[-0,2,0,0,0],
+      data:[-219,-200],
       borderWidth:6,
       borderColor:'rgba(77,166,253,0.85)',
       backgroundColor:'transparent',
     },
     {
         label:"ebuliçao,e muito alta para representar graficamente",
-      data:[1,2,3,4,5],
+      data:[-219,-200,-188,-187],
       borderWidth:6,
-      borderColor:'green',
+      borderColor:'red',
       backgroundColor:'transparent',
 
     },
