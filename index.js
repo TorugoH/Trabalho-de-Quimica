@@ -120,25 +120,23 @@ var chartGraph = new Chart(ctx,{
     datasets:[
       {
       label:"fusao",
-      data:[-219,-200],
+      data:[-219.6,200,],
       borderWidth:6,
       borderColor:'rgba(77,166,253,0.85)',
       backgroundColor:'transparent',
     },
     {
-        label:"ebuliçao,e muito alta para representar graficamente",
-      data:[-219,-200,-188,-187],
+        label:"ebuliçao",
+      data:[-219.9,-200,-181],
       borderWidth:6,
       borderColor:'red',
       backgroundColor:'transparent',
-
     },
     ]
   }
-
 });
 
-var ctx=document.getElementsByClassName("sex");
+var ctx=document.getElementsByClassName("sex");//iodo
 var chartGraph = new Chart(ctx,{
   type:'line',
   data:{
@@ -146,14 +144,14 @@ var chartGraph = new Chart(ctx,{
     datasets:[
       {
       label:"fusao",
-      data:[-0,2,0,0,0],
+      data:[0,90,100,113.7],
       borderWidth:6,
       borderColor:'rgba(77,166,253,0.85)',
       backgroundColor:'transparent',
     },
     {
-        label:"ebuliçao,e muito alta para representar graficamente",
-      data:[1,2,3,4,5],
+        label:"ebuliçao",
+      data:[0,90,100,113.7,130,140,150,184.3],
       borderWidth:6,
       borderColor:'green',
       backgroundColor:'transparent',
@@ -161,8 +159,6 @@ var chartGraph = new Chart(ctx,{
     },
     ]
   }
-
-
 });
 var ctx=document.getElementsByClassName("sext");
 var chartGraph = new Chart(ctx,{
@@ -172,14 +168,14 @@ var chartGraph = new Chart(ctx,{
     datasets:[
       {
       label:"fusao",
-      data:[-0,2,0,0,0],
+      data:[0,90,113.7],
       borderWidth:6,
       borderColor:'rgba(77,166,253,0.85)',
       backgroundColor:'transparent',
     },
     {
-        label:"ebuliçao,e muito alta para representar graficamente",
-      data:[1,2,3,4,5],
+        label:"ebuliçao",
+        data:[0,90,113],
       borderWidth:6,
       borderColor:'green',
       backgroundColor:'transparent',
