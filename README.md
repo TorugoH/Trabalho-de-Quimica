@@ -1,2 +1,2 @@
-# quimica
-ta
+# QUÍMICA ADICONA O ISAAC AÍ
+
