@@ -1,24 +1,4 @@
-const target = document.querySelectorAll('[data-anime]');
 
-const animacaoClass='animacao';
-
-function aScroll(){
-  const janela =window.pageYOffset+((window.innerHeight*3)/4);//para a altura n ser no topo
-  target.forEach(function(e){
-    if((janela)> e.offsetTop){
-      e.classList.add(animacaoClass);
-    }
-    else{
-        e.classList.remove(animacaoClass);
-    }
-  })
-}
-aScroll();
-if(target.length){
-window.addEventListener('scroll',function(){
-  aScroll();
-  })
-}
 /*efeitor do titulo aprecer*/
 function escrever(elemento) {
     const textoArray = elemento.innerHTML.split('');
@@ -34,7 +14,7 @@ function escrever(elemento) {
   var chartGraph = new Chart(ctx,{
     type:'line',
     data:{
-      labels:["0","20","30","40"],
+      labels:["T1","T2","T3","T4","T5","T6"],
       datasets:[
         {
         label:"fusao",
@@ -58,18 +38,18 @@ function escrever(elemento) {
   var chartGraph = new Chart(ctx,{
     type:'line',
     data:{
-      labels:["0","20","30","40"],
+      labels:["T0","T1","T2","T3","T4","T5"],
       datasets:[
         {
         label:"fusao",
-        data:[-0,2,0,0,0],
+        data:[181,130,70,69,50,40],
         borderWidth:6,
         borderColor:'rgba(77,166,253,0.85)',
         backgroundColor:'transparent',
       },
       {
           label:"ebuliçao,e muito alta para representar graficamente",
-        data:[1,2,3,4,5],
+        data:[181,400,600,800,1000,1330],
         borderWidth:6,
         borderColor:'green',
         backgroundColor:'transparent',
@@ -77,26 +57,24 @@ function escrever(elemento) {
       },
       ]
     }
-
-
   });
 
 var ctx=document.getElementsByClassName("tt");
 var chartGraph = new Chart(ctx,{
   type:'line',
   data:{
-    labels:["0","20","30","40"],
+    labels:["T1","T2","T3","T4","T5"],
     datasets:[
       {
       label:"fusao",
-      data:[-0,2,0,0,0],
+      data:[98,80,60,40,0],
       borderWidth:6,
       borderColor:'rgba(77,166,253,0.85)',
       backgroundColor:'transparent',
     },
     {
-        label:"ebuliçao,e muito alta para representar graficamente",
-      data:[1,2,3,4,5],
+        label:"ebuliçao,muito alto",
+      data:[97.79,120,220,320,882.8],
       borderWidth:6,
       borderColor:'green',
       backgroundColor:'transparent',
@@ -111,7 +89,7 @@ var ctx=document.getElementsByClassName("qq");
 var chartGraph = new Chart(ctx,{
   type:'line',
   data:{
-    labels:["0","20","30","40"],
+    labels:["T1","T2","T3","T4","T5"],
     datasets:[
       {
       label:"fusao",
@@ -138,7 +116,7 @@ var ctx=document.getElementsByClassName("qui");
 var chartGraph = new Chart(ctx,{
   type:'line',
   data:{
-    labels:["0","20","30","40"],
+    labels:["T1","T2","T3","T4","T5","T6"],
     datasets:[
       {
       label:"fusao",
@@ -164,7 +142,7 @@ var ctx=document.getElementsByClassName("sex");
 var chartGraph = new Chart(ctx,{
   type:'line',
   data:{
-    labels:["0","20","30","40"],
+    labels:["T1","T2","T3","T4","T5","T6"],
     datasets:[
       {
       label:"fusao",
@@ -190,7 +168,7 @@ var ctx=document.getElementsByClassName("sext");
 var chartGraph = new Chart(ctx,{
   type:'line',
   data:{
-    labels:["0","20","30","40"],
+    labels:["T1","T2","T3","T4","T5","T6"],
     datasets:[
       {
       label:"fusao",
@@ -215,7 +193,7 @@ var ctx=document.getElementsByClassName("oit");
 var chartGraph = new Chart(ctx,{
   type:'line',
   data:{
-    labels:["0","20","30","40"],
+    labels:["T1","T2","T3","T4","T5","T6"],
     datasets:[
       {
       label:"fusao",
@@ -241,7 +219,7 @@ var ctx=document.getElementsByClassName("nov");
 var chartGraph = new Chart(ctx,{
   type:'line',
   data:{
-    labels:["0","20","30","40"],
+    labels:["T1","T2","T3","T4","T5","T6"],
     datasets:[
       {
       label:"fusao",
@@ -267,7 +245,7 @@ var ctx=document.getElementsByClassName("dec");
 var chartGraph = new Chart(ctx,{
   type:'line',
   data:{
-    labels:["0","20","30","40"],
+    labels:["T1","T2","T3","T4","T5","T6"],
     datasets:[
       {
       label:"fusao",
@@ -293,7 +271,7 @@ var ctx=document.getElementsByClassName("teentwo");
 var chartGraph = new Chart(ctx,{
   type:'line',
   data:{
-    labels:["0","20","30","40"],
+    labels:["T1","T2","T3","T4","T5","T6"],
     datasets:[
       {
       label:"fusao",
@@ -318,7 +296,7 @@ var chartGraph = new Chart(ctx,{
 var chartGraph = new Chart(ctx,{
   type:'line',
   data:{
-    labels:["0","20","30","40"],
+    labels:["T1","T2","T3","T4","T5","T6"],
     datasets:[
       {
       label:"fusao",
@@ -337,6 +315,4 @@ var chartGraph = new Chart(ctx,{
     },
     ]
   }
-
-
 });
