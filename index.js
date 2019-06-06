@@ -189,18 +189,18 @@ var ctx=document.getElementsByClassName("oit");
 var chartGraph = new Chart(ctx,{
   type:'line',
   data:{
-    labels:["T1","T2","T3","T4","T5","T6"],
+    labels:["T0","TX"],
     datasets:[
       {
       label:"fusao",
-      data:[-0,2,0,0,0],
+      data:[-259.2,-255.2],
       borderWidth:6,
       borderColor:'rgba(77,166,253,0.85)',
       backgroundColor:'transparent',
     },
     {
         label:"ebuliçao,e muito alta para representar graficamente",
-      data:[1,2,3,4,5],
+      data:[-259.2,-252.9,-250],
       borderWidth:6,
       borderColor:'green',
       backgroundColor:'transparent',
@@ -219,14 +219,14 @@ var chartGraph = new Chart(ctx,{
     datasets:[
       {
       label:"fusao",
-      data:[-0,2,0,0,0],
+      data:[0,600],
       borderWidth:6,
       borderColor:'rgba(77,166,253,0.85)',
       backgroundColor:'transparent',
     },
     {
         label:"ebuliçao,e muito alta para representar graficamente",
-      data:[1,2,3,4,5],
+      data:[0,600,2056],
       borderWidth:6,
       borderColor:'green',
       backgroundColor:'transparent',
@@ -245,14 +245,14 @@ var chartGraph = new Chart(ctx,{
     datasets:[
       {
       label:"fusao",
-      data:[-0,2,0,0,0],
+      data:[-272.2,-270,],
       borderWidth:6,
       borderColor:'rgba(77,166,253,0.85)',
       backgroundColor:'transparent',
     },
     {
         label:"ebuliçao,e muito alta para representar graficamente",
-      data:[1,2,3,4,5],
+      data:[-272.2,-270,-268.9],
       borderWidth:6,
       borderColor:'green',
       backgroundColor:'transparent',
@@ -263,7 +263,7 @@ var chartGraph = new Chart(ctx,{
 
 
 });
-var ctx=document.getElementsByClassName("teentwo");
+var ctx=document.getElementsByClassName("potassio");
 var chartGraph = new Chart(ctx,{
   type:'line',
   data:{
@@ -271,14 +271,14 @@ var chartGraph = new Chart(ctx,{
     datasets:[
       {
       label:"fusao",
-      data:[-0,2,0,0,0],
+      data:[63.5,80,500,600],
       borderWidth:6,
       borderColor:'rgba(77,166,253,0.85)',
       backgroundColor:'transparent',
     },
     {
         label:"ebuliçao,e muito alta para representar graficamente",
-      data:[1,2,3,4,5],
+      data:[63.5,80,500,600,773.85],
       borderWidth:6,
       borderColor:'green',
       backgroundColor:'transparent',
@@ -288,22 +288,22 @@ var chartGraph = new Chart(ctx,{
   }
 
 
-});var ctx=document.getElementsByClassName("teentreen");
+});var ctx=document.getElementsByClassName("cloro");
 var chartGraph = new Chart(ctx,{
   type:'line',
   data:{
-    labels:["T1","T2","T3","T4","T5","T6"],
+    labels:["T1","T2","T3","T4","T5","T6","T7","T8"],
     datasets:[
       {
       label:"fusao",
-      data:[-0,2,0,0,0],
+      data:[-100.95,-80,-60,-40,-20,0,10],
       borderWidth:6,
       borderColor:'rgba(77,166,253,0.85)',
       backgroundColor:'transparent',
     },
     {
         label:"ebuliçao,e muito alta para representar graficamente",
-      data:[1,2,3,4,5],
+      data:[-100.95,-80,-60,-40,-20,0,10,34.55],
       borderWidth:6,
       borderColor:'green',
       backgroundColor:'transparent',
