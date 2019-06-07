@@ -242,7 +242,7 @@ var chartGraph = new Chart(ctx,{
   data:{
     labels:["T1","T2","T3","T4","T5","T6"],
     datasets:[
-      data:[-272.2,-270,-268.9],
+
       {
       label:"fusao",
       data:[-272.2,-270,],
@@ -252,6 +252,7 @@ var chartGraph = new Chart(ctx,{
     },
     {
         label:"ebuliçao,e muito alta para representar graficamente",
+        data:[-272.2,-270,-268.9],
       borderWidth:6,
       borderColor:'green',
       backgroundColor:'transparent',
@@ -260,7 +261,7 @@ var chartGraph = new Chart(ctx,{
     ]
   }
 });
-data:[63.5,80,90,100,200,300,400,500,600,700],
+
 var ctx=document.getElementsByClassName("potassio");
 var chartGraph = new Chart(ctx,{
   type:'line',
@@ -269,6 +270,7 @@ var chartGraph = new Chart(ctx,{
     datasets:[
       {
       label:"fusao",
+      data:[63.5,80,90,100,200,300,400,500,600,700],
       borderWidth:6,
       borderColor:'rgba(77,166,253,0.85)',
       backgroundColor:'transparent',
