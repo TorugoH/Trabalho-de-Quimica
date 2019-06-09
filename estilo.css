@@ -73,3 +73,18 @@ ul{
   opacity:1;
   transform: translate3d(0px,0px,0ṕx);
 }
+
+body{
+  background-image: linear-gradient(#000280, #1f90ff ,#1f90ff);
+}
+.card-body {
+
+
+}
+h1{
+  color: white;
+}
+
+/*main{
+  background-color: aliceblue;
+}*/
