@@ -8,59 +8,77 @@ ul{
 }
 #elementoum{
   position: relative;
-    top: 2em;
+    top: 3em;
     left: 3em;
 }
 
 #elementodois{
     position: relative;
-    top: -43em;
+    top: -47em;
     left: 30em;
 }
+
 #elementotres{
     position: relative;
-    top: -85em;
+    top: -93em;
     left: 65%;
 }
+
 #elementoquatro{
   position: relative;
-  top: -75em;
+  top: -86em;
     left: 3em;
 }
+
 #elementocinco{
   position: relative;
-  top: -117em;
+  top: -141em;
   left: 30em;
 }
+
 #elementoseis{
     position: relative;
-      top: -159em;
+      top: -189em;
     left: 65%;
 }
+
 #elementosete{
   position: relative;
   left: 3em;
-  top: -150em;
+  top: -180em;
 }
+
 #elementooito{
   position: relative;
   left: 30em;
-  top: -192em;
-
-
+  top: -228em;
 }
+
 #elementonovo{
   position: relative;
-  top: -234em;
+  top: -277em;
   left: 65%;
-
 }
+
 #elementodez{
   position: relative;
-    top: -230em;
+    top: -275em;
     left: 3em;
-
 }
+
+#elementoonze{
+  position: relative;
+    top: -325em;
+    left: 30em;
+}
+
+#elementodonze{
+  position: relative;
+    top: -381em;
+    left: 65%;
+}
+
+
 [data-anime]{
   opacity: 0;
   transition:.3s;
@@ -84,6 +102,8 @@ body{
 h1{
   color: white;
 }
+
+
 
 /*main{
   background-color: aliceblue;
