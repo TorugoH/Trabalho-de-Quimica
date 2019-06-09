@@ -19,9 +19,10 @@ ul{
 }
 
 #elementotres{
-    position: relative;
-    top: -93em;
-    left: 65%;
+  position: relative;
+top: -94.3em;
+left: 65%;
+
 }
 
 #elementoquatro{
@@ -32,7 +33,7 @@ ul{
 
 #elementocinco{
   position: relative;
-  top: -141em;
+  top: -136.5em;
   left: 30em;
 }
 
@@ -94,6 +95,7 @@ ul{
 
 body{
   background-image: linear-gradient(#000280, #1f90ff ,#1f90ff);
+    height:100%;
 }
 .card-body {
 
