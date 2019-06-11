@@ -94,7 +94,7 @@ left: 65%;
 }
 
 body{
-  background-image: linear-gradient(#000280, #1f90ff ,#1f90ff);
+  background-image: linear-gradient(#00BFFF, #87CEFA ,#AFEEEE);
     height:100%;
 }
 .card-body {
@@ -103,8 +103,17 @@ body{
 }
 h1{
   color: white;
+
 }
 
+h5{
+
+  font-family: cursive;
+
+}
+p{
+  font-family: cursive;
+}
 
 
 /*main{
