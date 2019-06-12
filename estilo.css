@@ -2,95 +2,102 @@
 nav>h1{
   text-align: center;
   font-family: 'Baloo Bhai', cursive;
+  background-color:#636667;
 }
 ul{
   list-style-type: none;
 }
 #elementoum{
-  position: relative;
-    top: 3em;
-    left: 3em;
+display: inline-block;
+position: relative;
+
+    left: 1em;
+    height: 50em;
+    top: 3.2em;
 }
 
 #elementodois{
-    position: relative;
-    top: -47em;
-    left: 30em;
+display: inline-block;
+position: relative;
+    left: 5em;
+    height: 50em;
+    top: 3.8em;
 }
 
 #elementotres{
-  position: relative;
-top: -94.3em;
-left: 65%;
-
+display: inline-block;
+position: relative;
+left: 6em;
+    height: 50em;
+    top: 1.5em
 }
 
 #elementoquatro{
-  position: relative;
-  top: -86em;
-    left: 3em;
+display: inline-block;
+position: relative;
+left: 1em;
 }
 
 #elementocinco{
-  position: relative;
-  top: -136.5em;
-  left: 30em;
+display: inline-block;
+position: relative;
+left: 8em;
 }
 
 #elementoseis{
-    position: relative;
-      top: -189em;
-    left: 65%;
+display: inline-block;
+position: relative;
+    left: 9em;
 }
 
 #elementosete{
-  position: relative;
-  left: 3em;
-  top: -180em;
+display: inline-block;
+position: relative;
+left: 1em;
 }
 
 #elementooito{
-  position: relative;
-  left: 30em;
-  top: -228em;
+display: inline-block;
+position: relative;
+left: 10em;
 }
 
 #elementonovo{
-  position: relative;
-  top: -277em;
-  left: 65%;
+display: inline-block;
+position: relative;
+left: 11em;
 }
 
 #elementodez{
-  position: relative;
-    top: -275em;
-    left: 3em;
+display: inline-block;
+position: relative;
 }
 
 #elementoonze{
-  position: relative;
-    top: -325em;
-    left: 30em;
+display: inline-block;
+position: relative;
 }
 
 #elementodonze{
-  position: relative;
-    top: -381em;
-    left: 65%;
+display: inline-block;
+position: relative;
 }
 
 
-[data-anime]{
-  opacity: 0;
-  transition:.3s;
+.linhaum{
+  text-align: center;
 }
-[data-anime="left"]{
-  transform:translate3d(3em,0,0);
+.linhadois{
+  text-align: center;
+  padding-top: 50px;
 }
-
-[data-anime].animacao{
-  opacity:1;
-  transform: translate3d(0px,0px,0ṕx);
+.linhatrez{
+  text-align: center;
+  padding-top: 40px;
+}
+.linhaquatro{
+  text-align: center;
+      padding-top: 50px;
 }
 
 body{
