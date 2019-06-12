@@ -10,77 +10,94 @@ ul{
 #elementoum{
 display: inline-block;
 position: relative;
-
-    left: 1em;
-    height: 50em;
+    height: 55em;
     top: 3.2em;
+    left: -2em;
 }
 
 #elementodois{
 display: inline-block;
 position: relative;
-    left: 5em;
-    height: 50em;
-    top: 3.8em;
+    height: 55em;
+    top: 1.2em;
+        left: 2.5em;
 }
 
 #elementotres{
 display: inline-block;
 position: relative;
 left: 6em;
-    height: 50em;
-    top: 1.5em
+    height: 55em;
+    top: 1.7em
 }
 
 #elementoquatro{
 display: inline-block;
 position: relative;
-left: 1em;
+left: -2em;
+ height: 55em
 }
 
 #elementocinco{
 display: inline-block;
 position: relative;
-left: 8em;
+    left: 2.5em;
+height: 55em;
+top:-3em;
 }
 
 #elementoseis{
 display: inline-block;
 position: relative;
-    left: 9em;
+    height: 55em;
+    left: 6em;
 }
 
 #elementosete{
 display: inline-block;
 position: relative;
-left: 1em;
+left: -2em;
+height: 55em;
+top: -5.5em;
 }
 
 #elementooito{
 display: inline-block;
 position: relative;
-left: 10em;
+    left: 2.5em;
+height: 55em;
+top: -2.5em;
 }
 
 #elementonovo{
 display: inline-block;
 position: relative;
-left: 11em;
+left: 6em;
+height: 55em;
 }
 
 #elementodez{
 display: inline-block;
 position: relative;
+left: -2em;
+    height: 55em;
+    top: -10em;
 }
 
 #elementoonze{
 display: inline-block;
 position: relative;
+    top: -4em;
+    height: 55em;
+    left: 2.5em;
 }
 
 #elementodonze{
 display: inline-block;
 position: relative;
+left: 6em;
+height: 55em;
+top: -9.7em;
 }
 
 
