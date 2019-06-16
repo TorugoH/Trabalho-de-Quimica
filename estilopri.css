@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css?family=Baloo&display=swap');
+body,ul{
+  margin: 0;
+  border: 0;
+}
+body{
+  background-image: url(plano.jpg);
+  background-attachment: fixed;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-color: #000;
+}
+
+header{
+  background-color: white;
+}
+.pagina:hover{
+  color:green;
+}
+.pagina:link {
+  color: black;
+}
+.pagina:active{
+  color: #00897b;
+}
+.pagina{
+  text-decoration: none;
+  color:white;
+}
+nav li{
+  display: inline-block;
+  letter-spacing: 2px;
+  font-size: 20px;
+  padding: 30px ;
+  padding-left: 65px;
+  padding-right: 65px;
+  text-decoration: none;
+  font-weight: bolder;
+}
+nav{
+  background-color: #60c4db;
+
+}
+ul{
+  text-align: center;
+}
+.titulo{
+  margin: 0;
+  text-align: center;
+  font-size: 50px;
+  font-family: 'Baloo', cursive;
+  background-color: #0ffb39ad;
+  color: white;
+}
+.t>p{
+  text-align:center;
+  margin-right: 100px;
+  margin-left: 100px;
+  padding-bottom: 15px;
+  padding-top: 15px;
+}
+
+#primeiro{
+  width:100%;
+  box-sizing: border-box;
+
+}
+.fotinha{
+  position: relative;
+  top: 100px;
+  left: 100px;
+  height:500px;
+  width:700px;
+}
+.estilo a{
+  font-size:30px;
+  position: absolute;
+  left: 340px;
+  top: 350px;
+}
+.texto{
+  color:lightblue;
+
+}
+.corpo{
+  text-align: center;
+}
+li{
+  list-style-type: none;
+}
+h2{
+  text-align: center;
+  font-family: cursive;
+}
+h5{
+    font-family: cursive;
+}
+  #gif{
+
+   border-radius: 10px;
+   display: block;
+     margin-left: auto;
+    margin-right: auto;
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
+.t>h2{
+  padding-top: 10px;
+}
+.introducao{
+    background-color: #ffffffeb;
+    border: transparent;
+}
+.objetivo{
+  background-color: #ffffffeb;
+  border: transparent;
+
+}
+footer{
+background-color: #0ffb39ad;
+color: white;
+text-align: center;
+margin: 0;
+border:0;
+ font-family: cursive;
+ font-size: 17px;
+}
+.estilo{
+  margin-right: 3em;
+    margin-left: 3em;
+}

@@ -2,7 +2,7 @@
 nav>h1{
   text-align: center;
   font-family: 'Baloo Bhai', cursive;
-  background-color:#636667;
+  background-color:#0ffb39ad;
 }
 ul{
   list-style-type: none;
@@ -16,11 +16,11 @@ position: relative;
 }
 
 #elementodois{
-display: inline-block;
-position: relative;
+    display: inline-block;
+    position: relative;
     height: 55em;
     top: 1.2em;
-        left: 2.5em;
+    left: 2.5em;
 }
 
 #elementotres{
@@ -36,6 +36,7 @@ display: inline-block;
 position: relative;
 left: -2em;
  height: 55em
+ top:-2em;
 }
 
 #elementocinco{
@@ -51,6 +52,8 @@ display: inline-block;
 position: relative;
     height: 55em;
     left: 6em;
+    top:-1.5em;
+
 }
 
 #elementosete{
@@ -58,7 +61,7 @@ display: inline-block;
 position: relative;
 left: -2em;
 height: 55em;
-top: -5.5em;
+top:-2em;
 }
 
 #elementooito{
@@ -66,7 +69,7 @@ display: inline-block;
 position: relative;
     left: 2.5em;
 height: 55em;
-top: -2.5em;
+top:-0.5em;
 }
 
 #elementonovo{
@@ -74,20 +77,21 @@ display: inline-block;
 position: relative;
 left: 6em;
 height: 55em;
+top:-0.7em;
 }
 
 #elementodez{
 display: inline-block;
 position: relative;
 left: -2em;
-    height: 55em;
-    top: -10em;
+  height: 55em;
+ top:-1.5em;
 }
 
 #elementoonze{
 display: inline-block;
 position: relative;
-    top: -4em;
+   top:-3em;
     height: 55em;
     left: 2.5em;
 }
@@ -97,7 +101,7 @@ display: inline-block;
 position: relative;
 left: 6em;
 height: 55em;
-top: -9.7em;
+top:-3em;
 }
 
 
@@ -118,7 +122,9 @@ top: -9.7em;
 }
 
 body{
-  background-image: linear-gradient(#00BFFF, #87CEFA ,#AFEEEE);
+  /*background-image: linear-gradient(#00BFFF, #87CEFA ,#AFEEEE);
+  */
+  background-color: #60c4db;
     height:100%;
 }
 .card-body {
@@ -127,18 +133,16 @@ body{
 }
 h1{
   color: white;
-
 }
-
 h5{
 
   font-family: cursive;
-
 }
-p{
-  font-family: cursive;
-}
-
+.btn btn-primary {
+    color: white;
+    background-color: #29e96c;
+    border-color: #82f1bf;
+  }
 
 /*main{
   background-color: aliceblue;
