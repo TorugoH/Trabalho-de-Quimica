@@ -3,6 +3,7 @@ let it=document.querySelector('.item');
 let resu=document.querySelector('.resultado');
 let descri=document.querySelector('.descri');
 let nome=document.querySelector('.nome');
+/*Pegando o valor nutricional dos aliementos*/
  let dados={
         strogonoff:{
             name:'frango ou carne',
