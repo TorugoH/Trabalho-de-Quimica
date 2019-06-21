@@ -1,5 +1,5 @@
 let busca=document.querySelector('.busca');
-let it=document.querySelector('.item');
+let item=document.querySelector('.item');
 let resu=document.querySelector('.resultado');
 let descri=document.querySelector('.descri');
 let nome=document.querySelector('.nome');
@@ -23,19 +23,17 @@ let nome=document.querySelector('.nome');
             descricao:'Quando você ingere 100g de strogonofe de carne voçê esta consumondo:'+'</br>'
             +'Sódio 255mg'+'</br>'
             +'Potássio 319mg'+'</br>',
-        },
-        
-        
+        },   
     };
 
-
+/*parte q faz tudo*/
 busca.addEventListener('click',function(){
     /*so para mostra no console pra ver o q tem*/
-    console.log(dados[it.value].descricao);
-    console.log(dados[it.value].composicao);
-    console.log(dados[it.value].name);
+    console.log(dados[item.value].descricao);
+    console.log(dados[item.value].composicao);
+    console.log(dados[item.value].name);
     /*aqui adiciona o objeto pesquisado*/   
-    nome.innerHTML=dados[it.value].name;
-    descri.innerHTML=dados[it.value].composicao;
-    resu.innerHTML=dados[it.value].descricao;
+    nome.innerHTML=dados[item.value].name;
+    descri.innerHTML=dados[item.value].composicao;
+    resu.innerHTML=dados[item.value].descricao;
 });
