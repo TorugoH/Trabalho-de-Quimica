@@ -18,7 +18,11 @@ body,head,h1,ul{
     margin-right: 5em;
     top: 2em;
     border: solid 1px;
-    height: 20em;   
+    background-image: url('caderno.jpg');
+    
+   
+    
+      
 }
 nav{
     text-align: center;
@@ -35,5 +39,43 @@ nav>ul>li{
     padding-right: 65px;
     text-decoration: none;
     font-weight: bolder;
+}
+.pagina:hover{
+    color: chartreuse;
+
+}
+.pagina{
+    text-decoration:none; 
+    color: white;
+
+}
+body{
+    background-color: #03a9f4;
+}
+nav>ul{
+    background-color: black;
+}
+.item{
+    height:3.5em;
+    width:30em;
+}
+.busca:hover{
+    color:  chartreuse;
+}
+.busca{
+    height:3em;
+    width:7em;
+ background-color: black;
+ color:white;
+ border:solid 1px black;
+    
+
+}
+h1{
+    font-size: 4em;
+    color: white;
+}
+p{
+    font-size: 25px;
 }
 

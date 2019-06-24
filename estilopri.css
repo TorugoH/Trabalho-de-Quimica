@@ -49,7 +49,7 @@ ul{
   text-align: center;
   font-size: 50px;
   font-family: 'Baloo', cursive;
-  background-color: #0ffb39ad;
+  background-color: #28a745;
   color: white;
 }
 .t>p{
@@ -110,6 +110,8 @@ h5{
 .introducao{
     background-color: #ffffffeb;
     border: transparent;
+    position: relative;
+    top:1em;
 }
 .objetivo{
   background-color: #ffffffeb;
@@ -117,7 +119,7 @@ h5{
 
 }
 footer{
-background-color: #0ffb39ad;
+background-color: #28a745;
 color: white;
 text-align: center;
 margin: 0;
@@ -129,3 +131,4 @@ border:0;
   margin-right: 5em;
   margin-left: 5em;
 }
+
