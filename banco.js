@@ -533,7 +533,7 @@ let dados = {
         composicao: ' ',
 
     },
-    Manteiga: {
+    manteiga: {
         name: 'manteiga',
         descricao: 'sem sal        com sal' + '</br>'
             + 'Magnésio 1 mg	           1mg' + '</br>'
@@ -570,9 +570,411 @@ let dados = {
         composicao: ' ',
         acompanhamento: ' ',
     },
+/*(Ervilha) falta
+Manganês  mg
+Magnésio  mg
+Fosforo  mg
+Ferro  mg
+Potássio  mg
+Cobre ug
+Zinco  mg
+Sódio  mg
+
+Guarnição
+Salpicão (Contem ) falta
+Manganês  mg
+Magnésio  mg
+Fosforo  mg
+Ferro  mg
+Potássio  mg
+Cobre ug
+Zinco  mg
+Sódio  mg
+
+Prato 4 
+
+
+ 
+Guarnição
+Polenta com tomate e queijo
+(Angu) falta
+Manganês  mg
+Magnésio  mg
+Fosforo  mg
+Ferro  mg
+Potássio  mg
+Cobre ug
+Zinco  mg
+Sódio  mg
+
+(Passas) falta
+Manganês  mg
+Magnésio  mg
+Fosforo  mg
+Ferro  mg
+Potássio  mg
+Cobre ug
+Zinco  mg
+Sódio  mg
 
 
 
+Prato 6
+
+Prato principal falta
+Bife bovino acebolado
+(Bife bovino)
+Manganês  mg
+Magnésio  mg
+Fosforo  mg
+Ferro  mg
+Potássio  mg
+Cobre ug
+Zinco  mg
+Sódio  mg
+
+Cebola
+Manganês  mg
+Magnésio  mg
+Fosforo  mg
+Ferro  mg
+Potássio  mg
+Cobre ug
+Zinco  mg
+Sódio  mg
+*/ 
+
+
+alface_roxa:{
+    name: 'Leite',
+descricao:'Manganês 0,12 mg'+'</br>'
++'Magnésio 9 mg'+'</br>'
++'Fosforo 51 mg'+'</br>'
++'Ferro 2,5 mg'+'</br>'
++'Potássio 308 mg'+'</br>'
++'Cobre 0,04ug'+'</br>'
++'Zinco 0,2 mg'+'</br>'
++'Sódio 7 mg'+'</br>'
+},
+
+pepino:{
+    name: 'Leite',
+descricao:'Manganês 0,08 mg'+'</br>'
++'Magnésio 9 mg'+'</br>'
++'Fosforo 12 mg'+'</br>'
++'Ferro 0,1 mg'+'</br>'
++'Potássio 154 mg'+'</br>'
++'Cobre 0,04 ug'+'</br>'
++'Zinco 0,1 mg'+'</br>'
+},
+
+
+
+
+Mussarela:{
+    name: 'Leite',
+descricao:+'Manganês 0,03 mg'+'</br>'
++'Magnésio 24 mg'+'</br>'
++'Fosforo 470 mg'+'</br>'
++'Ferro 0,3 mg'+'</br>'
++'Potássio 62 mg'+'</br>'
++'Cobre 0,08 ug'+'</br>'
++'Zinco 3,5 mg'+'</br>'
++'Sódio 581 mg'+'</br>'
+},
+Couve:{
+    name: 'Leite',
+    descricao:'Manganês 0,1 mg'+'</br>'
++'Magnésio 26,2 mg'+'</br>'
++'Fosforo 33,4 mg'+'</br>'
++'Ferro 0,5 mg'+'</br>'
++'Potássio 314,9 mg'+'</br>'
++'Zinco 0,2 mg'+'</br>'
++'Sódio 11,5 mg'+'</br>'
+},
+Rabanete:{  
+    name: 'Leite',
+    descricao:'Manganês 0,07 mg'+'</br>'
++'Magnésio 10 mg'+'</br>'
++'Fosforo 25 mg'+'</br>'
++'Ferro 0,4 mg'+'</br>'
++'Potássio 328 mg'+'</br>'
++'Cobre 0,02 ug'+'</br>'
++'Zinco 0,2 mgv'
++'Sódio 11 mg'+'</br>'
+},
+/*
+Moranga falta
+Manganês  mg
+Magnésio  mg
+Fosforo  mg
+Ferro  mg
+Potássio  mg
+Cobre ug
+Zinco  mg
+Sódio  mg
+
+Guarnição
+Macarronese falta
+Manganês  mg
+Magnésio  mg
+Fosforo  mg
+Ferro  mg
+Potássio  mg
+Cobre ug
+Zinco  mg
+Sódio  mg
+
+Prato 8
+
+
+Salada
+
+
+Salada tropical falta
+Manganês  mg
+Magnésio  mg
+Fosforo  mg
+Ferro  mg
+Potássio  mg
+Cobre ug
+Zinco  mg
+Sódio  mg
+*/
+ 
+
+psimentão:{
+    name: 'Leite',
+descricao:'Manganês 0,14 mg'+'</br>'
++'Magnésio 11 mg'+'</br>'
++'Fosforo 14 mg'+'</br>'
++'Ferro 0,4 mg'+'</br>'
++'Potássio 174 mg'+'</br>'
++'Cobre 0,07 ug'+'</br>'
++'Zinco 0,1 mg'+'</br>'
+},
+Bife_de_frango:{
+    name: 'Leite',
+descricao:'Manganês 0,1 mg'+'</br>'
++'Magnésio 34,8 mg'+'</br>'
++'Fosforo 249,4 mg'+'</br>'
++'Ferro 1,1 mg'+'</br>'
++'Potássio 407,6 mg'+'</br>'
++'Cobre 0,1 ug'+'</br>'
++'Zinco 0,8 mg'+'</br>'
++'Sódio 122,3 mg'+'</br>'
+},
+//(Bacon) falta
+
+
+
+pimentão:{
+    name: 'Leite',
+    descricao:'Manganês 0,14 mg'+'</br>'
++'Magnésio 11 mg'+'</br>'
++'Fosforo 14 mg'+'</br>'
++'Ferro 0,4 mg'+'</br>'
++'Potássio 174 mg'+'</br>'
++'Cobre 0,07 ug'+'</br>'
++'Zinco 0,1 mg'+'</br>'
+},
+/*Vinagre
+Manganês  mg
+Magnésio  mg
+Fosforo  mg
+Ferro  mg
+Potássio  mg
+Cobre ug
+Zinco  mg
+Sódio  mg
+*/
+
+Chuchu:{
+    name: 'Leite',
+    descricao:'Manganês 0,07 mg'+'</br>'
++'Magnésio 7 mg'+'</br>'
++'Fosforo 13 mg'+'</br>'
++'Ferro 0,1 mg'+'</br>'
++'Potássio 54 mg'+'</br>'
++'Zinco 0,1 mg'+'</br>'
++'Sódio 2 mg'+'</br>'
+},
+//Milho
+/*(Costelinha)
+Manganês  mg
+Magnésio  mg
+Fosforo  mg
+Ferro  mg
+Potássio  mg
+Cobre ug
+Zinco  mg
+Sódio  mg
+*/
+ 
+alface_crespa:{
+    name: 'Leite',
+    descricao:'Manganês 0,2 mg'+'</br>'
++'Magnésio 11,0 mg'+'</br>'
++'Fosforo 25,8 mg'+'</br>'
++'Ferro 0,4 mg'+'</br>'
++'Potássio 267,1 mg'+'</br>'
++'Zinco 0,3 mg'+'</br>'
++'Sódio 3,4 mg'+'</br>' 
+},
+
+Manjericão:{
+    name: 'Leite',
+    descricao:'Manganês 0,17 mg'+'</br>'
++'Magnésio  mg'+'</br>'
++'Fosforo 40 mg'+'</br>'
++'Ferro 1,0 mg'+'</br>'
++'Potássio 252 mg'+'</br>'
++'Cobre 0,16 ug'+'</br>'
++'Zinco 0,5 mg'+'</br>'
++'Sódio 4 mg'+'</br>'
+},
+
+Repolho:{
+    name: 'Leite',
+    descricao:'Manganês 0,13 mg'+'</br>'
++'Magnésio 9 mg'+'</br>'
++'Fosforo 14 mg'+'</br>'
++'Ferro 0,2 mg'+'</br>'
++'Potássio 150 mg'+'</br>'
++'Cobre 0,02 ug'+'</br>'
++'Zinco 0,2 mg'+'</br>'
++'Sódio 4 mg'+'</br>'
+},/*
+(Vagem) falta
+
+Guarnição
+Farofa de Banana → farinha de mandioca, banana, alho, bacon.
+
+(Bacon) falta
+Manganês  mg
+Magnésio  mg
+Fosforo  mg
+Ferro  mg
+Potássio  mg
+Cobre ug
+Zinco  mg
+Sódio  mg
+*/
+Banana:{
+    name: 'Leite',
+    descricao:'Fósforo 26,7mg'+'</br>'
+    +'Manganês 0,1mg'+'</br>'
+    +'Magnésio 27,8mg'+'</br>'
+    +'Ferro 0,4mg'+'</br>'
+    +'Potássio 376,5mg'+'</br>'
+    +'Cobre 0,1ug'+'</br>'
+    +'Zinco 0,2m'+'</br>'
+},
+Farinha_de_mandioca:{
+    name: 'Leite',
+    descricao:'Manganês 0,37 mg'+'</br>'
++'Magnésio  mg'+'</br>'
++'Fosforo 39 mg'+'</br>'
++'Ferro 1,2 mg'+'</br>'
++'Potássio 328 mg'+'</br>'
++'Zinco 0,4 mg'+'</br>'
++'Sódio 10 mg'+'</br>'
+},
+/*
+Guarnição
+Batata palha falta
+Manganês  mg
+Magnésio  mg
+Fosforo  mg
+Ferro  mg
+Potássio  mg
+Cobre ug
+Zinco  mg
+Sódio  mg
+
+Prato 12
+*/
+Almeirão:{
+    name: 'Leite',
+    descricao:'Manganês 0,17 mg'+'</br>'
++'Magnésio 21 mg'+'</br>'
++'Fosforo 40 mg'+'</br>'
++'Ferro 0,7 mg'+'</br>'
++'Potássio 369 mg'+'</br>'
++'Cobre 0,10 ug'+'</br>'
++'Zinco 0,3 mg'+'</br>'
++'Sódio 2 mg'+'</br>'
+},
+
+Chuchu:{ 
+    name: 'Leite',
+    descricao:'Manganês 0,07 mg'+'</br>'
++'Magnésio 7 mg'+'</br>'
++'Fosforo 13 mg'+'</br>'
++'Ferro 0,1 mg'+'</br>'
++'Potássio 54 mg'+'</br>'
++'Zinco 0,1 mg'+'</br>'
++'Sódio 2 mg'+'</br>'
+},
+/*
+Guarnição
+Creme de milho falta
+Manganês  mg
+Magnésio  mg
+Fosforo  mg
+Ferro  mg
+Potássio  mg
+Cobre ug
+Zinco  mg
+Sódio  mg
+
+Bisteca falta
+Manganês  mg
+Magnésio  mg
+Fosforo  mg
+Ferro  mg
+Potássio  mg
+Cobre ug
+Zinco  mg
+Sódio  mg
+
+
+
+
+Prato principal
+Bife acebolado falta
+Manganês  mg
+Magnésio  mg
+Fosforo  mg
+Ferro  mg
+Potássio  mg
+Cobre ug
+Zinco  mg
+Sódio  mg
+
+*/
+Rabanete:{
+    name: 'Leite',
+    descricao:'Manganês 0,07 mg'+'</br>'
++'Magnésio 10 mg'+'</br>'
++'Fosforo 25 mg'+'</br>'
++'Ferro 0,4 mg'+'</br>'
++'Potássio 328 mg'+'</br>'
++'Cobre 0,02 ug'+'</br>'
++'Zinco 0,2 mg'+'</br>'
++'Sódio 11 mg'+'</br>'
+},
+Nabo:{
+    name: 'Leite',
+    descricao:'Manganês 4,42 mg'+'</br>'
++'Magnésio 15 mg'+'</br>'
++'Fosforo 17 mg'+'</br>'
++'Ferro 0,2 mg'+'</br>'
++'Potássio 280 mg'+'</br>'
++'Cobre 0,02 ug'+'</br>'
++'Zinco 0,2 mg'+'</br>'
++'Sódio 2 mg'+'</br>'
+}
 };
 busca.addEventListener('click', function () {
     /*aqui adiciona o objeto pesquisado*/
