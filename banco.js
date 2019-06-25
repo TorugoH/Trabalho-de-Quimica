@@ -8,9 +8,7 @@ let dados = {
     /*dados das comidas*/
     strogonoff: {
         name: 'frango ou carne',
-        composicao: 'peito de frango(ou carne)' + '</br>' +
-            'alho' + '</br>' + 'maionese' + '</br>' + 'maionese' +
-            '</br>' + 'manteiga' + '</br>' + 'ketchup' + '</br>' + 'mostarda' + '</br>' + 'creme de leite',
+        composicao: 'prato principal',
         descricao: 'Quando você ingere 100g de strogonofe de carne voçê esta consumondo:' + '</br>'
             + '28g de Calcio' + '</br>'
             + '22g de Magnesio' + '</br>'
@@ -23,7 +21,7 @@ let dados = {
 
     bife_de_panela: {
         name: 'bife de panela',
-        composicao: '',
+        composicao: 'prato principal',
         descricao: 'Quando você ingere 100g  de carne voçê esta consumindo:' + '</br>'
             + 'Sódio 255mg' + '</br>'
             + 'Potássio 319mg' + '</br>',
@@ -49,14 +47,14 @@ let dados = {
     },
     peixe_ensopado: {
         name: 'Peixe',
-        composicao: 'Peixe' + '</br>' + 'molho',
+        composicao: 'Prato principal',
         acompanhamentos: 'arroz' + '</br>' + 'feijão carioca' + '</br>' + 'purê de batata' + '</br>' + 'mix de alface',
         descricao: 'Quando você ingere 100g de Peixe ensopado você está consumindo:' + '</br>'
             + '8.3g de Lipídio' + '</br>',
     },
     fricassê_de_frango: {
         name: 'Peito de frango desfiado',
-        composicao: 'Peito de  frango desfiado' + '</br>' + 'milho verde' + '</br>' + 'batata palha' + '</br>' + 'requeijão cremoso' + '</br>' + 'creme de leite',
+        composicao: 'Prato principal',
         acompanhamentos: 'arroz' + '</br>' + 'feijão carioca' + '</br>' + 'cenoura' + '</br>' + 'alface americana',
         descricao: 'Quando você ingere 100g de fricassê de frango você está consumindo:' + '</br>'
             + '284mg  de Sódio' + '</br>'
@@ -72,7 +70,7 @@ let dados = {
     },
     linguiça_de_frango_assada: {
         name: 'linguiça de frango',
-        composicao: 'linguiça de frango' + '</br>' + 'tomate' + '</br>' + 'mandioca' + '</br>' + 'cheiro verde' + '</br>' + 'pimenta do reino' + '</br>' + 'maionese',
+        composicao: 'Prato principal',
         acompanhamentos: 'arroz' + '</br>' + 'feijão carioca' + '</br>' + 'alface roxa' + '</br>' + 'espaguete a bolonhesa' + '</br>' + 'couve' + '</br>' + 'pepino com limão',
         descricao: 'Quando você ingere 100g de Linguiça de frango você está consumindo:' + '</br>'
             + '1214mg de Sódio' + '</br>'
@@ -81,7 +79,7 @@ let dados = {
     },
     feijão_tropeiro: {
         name: 'feijão tropeiro',
-        composicao: 'feijão' + '</br>' + 'bacon' + '</br>' + 'linguiça calabresa' + '</br>' + 'ovos cozidos' + '</br>' + 'cebola picada' + '</br>' + 'couve fatiado' + '</br>' + 'alho picado',
+        composicao: 'Prato principal',
         descricao: 'Quando você ingere 100g de Feijão tropeiro você está consumindo:' + '</br>'
             + '398mg de Sódio' + '</br>'
             + '238mg de Potássio' + '</br>',
@@ -96,7 +94,7 @@ let dados = {
     },
     costelinha_ao_molho_barbecue: {
         name: 'Costela',
-        composicao: 'Costelinha de porco' + '</br>' + 'limão' + '</br>' + 'pimenta do reino' + '</br>' + 'cebola picada' + '</br>' + 'folha de louro' + '</br>' + 'catchup' + '</br>' + 'molho inglês',
+        composicao: 'Prato principal',
         acompanhamento: 'Arroz' + '</br>' + 'feijão carioca' + '</br>' + 'almeirão com laranja' + '</br>' + 'alface americana' + '</br>' + 'batata baroa' + '</br>' + 'cenoura cozida' + '</br>' + 'canjiquinha com linguiça',
         descricao: 'Quando você ingere 100g de Costelinha ao Molho Barbecue você está consumindo:' + '</br>'
             + '796mg de Sódio' + '</br>',
@@ -104,7 +102,7 @@ let dados = {
     },
     lasanha: {
         name: 'Lasanha',
-        composicao: 'mussarela' + '</br>' + 'presunto' + '</br>' + 'massa para lasanha' + '</br>' + 'parmesão ralado' + '</br>' + 'creme de leite' + '</br>' + 'carne moída',
+        composicao: 'Prato principal',
         descricao: 'Quando você ingere 100g de Lasanha você está consumindo:' + '</br>'
             + '373mg de Sódio' + '</br>'
             + '196mg de Potássio' + '</br>'
@@ -114,7 +112,7 @@ let dados = {
     },
     frango_caipira: {
         name: 'Frango Caipira',
-        composicao: 'frango' + '</br>' + 'cheiro verde' + '</br>' + 'cebola picada' + '</br>' + 'pimenta do reino' + '</br>' + 'dentes de alho amassados',
+        composicao: 'Prato principal',
         acompanhamento: 'Arroz' + '</br>' + 'feijão carioca' + '</br>' + 'macarrão ao molho de tomate' + '</br>' + 'alface' + '</br>' + 'mostarda com abacaxi' + '</br>' + 'vinagrete' + '</br>' + 'cenoura cozida' + '</br>' + 'lentilha',
         descricao: 'Quando você ingere 100g de Frango Caipira você está consumindo:' + '</br>'
             + '66.1mg de Cálcio' + '</br>'
@@ -128,7 +126,7 @@ let dados = {
     },
     canjica: {
         name: 'canjica',
-        composicao: 'leite comun ou leite de coco' + '</br>' + 'milho branco ou verde ralado' + '</br>' + 'açucar',
+        composicao: 'Prato principal',
         descricao: 'Quando você ingere 100g de Frango Caipira você está consumindo:' + '</br>'
             + '2mg de Cálcio' + '</br>'
             + '12.3mg de Magnésio' + '</br>'
@@ -143,7 +141,7 @@ let dados = {
     },
     bife_de_frango: {
         name: 'Bife de frango',
-        composicao: '',
+        composicao: 'Prato principal',
         descricao: 'Manganês 0,1 mg' + '</br>'
             + 'Magnésio 34,8 mgm' + '</br>'
             + 'Fosforo 249,4 mg' + '</br>'
@@ -156,7 +154,7 @@ let dados = {
     },
     alface_crespa: {
         name: 'Alface crespa',
-        composicao: 'E uma salada',
+        composicao: ' salada',
         descricao: 'Manganês 0,2 mg' + '</br>'
             + 'Magnésio 11,0 mg' + '</br>'
             + 'Fosforo 25,8 mg' + '</br>'
@@ -166,8 +164,8 @@ let dados = {
             + 'Sódio 3,4 mg' + '</br>',
     },
     acelga_com_manga: {
-        name: 'Acelga_com_manga',
-        composicao: 'E uma salada',
+        name: 'Acelga com manga',
+        composicao: 'salada',
         descricao: 'Manganês 0,1 mg' + '</br>'
             + 'Magnésio 10,4 mg' + '</br>'
             + 'Fosforo 40 mg' + '</br>'
@@ -178,7 +176,7 @@ let dados = {
     },
     cenoura: {
         name: 'Cenoura',
-        composicao: 'E uma salada',
+        composicao: 'salada',
         descricao: 'Manganês 0,1 mg' + '</br>'
             + 'Magnésio 14,5 mg' + '</br>'
             + 'Fosforo 26.7 mg' + '</br>'
@@ -189,7 +187,7 @@ let dados = {
     },
     Cheiro_verde: {
         name: 'cheiro verde',
-        composicao: 'E uma salada',
+        composicao: 'salada',
         descricao: 'Manganês 1,88 mg' + '</br>'
             + 'Magnésio 21 mg' + '</br>'
             + 'Fosforo 49 mg' + '</br>'
@@ -200,7 +198,7 @@ let dados = {
     },
     Cebolinha: {
         name: 'cebolinha',
-        composicao: 'E uma salada',
+        composicao: 'salada',
         descricao: 'Manganês 0,13 mg' + '</br>'
             + 'Magnésio 25 mg' + '</br>'
             + 'Fosforo 27 mg' + '</br>'
@@ -224,7 +222,7 @@ let dados = {
     },
     Lombo_ao_molho: {
         name: 'Lombo ao molho',
-        composicao: '',
+        composicao: 'prato principal',
         descricao: 'Magnésio 18,1 mg' + '</br>'
             + 'Fosforo 238,4 mg' + '</br>'
             + 'Ferro 0,5 mg' + '</br>'
@@ -235,7 +233,7 @@ let dados = {
     },
     quibe: {
         name: 'Quibe',
-        composicao: 'trigo para quibe' + '</br>' + 'carne moida' + '</br>' + 'cebola picada' + '</br>' + 'hortelã picada' + '</br>' + 'pimenta-síria',
+        composicao: 'Prato principal',
         acompanhamento: 'arroz' + '</br>' + 'feijão carioca' + '</br>' + 'sapicão' + '</br>' + 'couve com laranja' + '</br>' + 'repolho' + '</br>' + 'salada grega',
         descricao: 'Quando você ingere 100g de Quibe frito você está consumindo:' + '</br>'
             + '21.7mg de Cálcio' + '</br>'
@@ -250,7 +248,7 @@ let dados = {
     },
     frango_xadrez: {
         name: 'Frango Xadrez',
-        composicao: 'cebola cortada em cubos' + '</br>' + 'filé de frango sem pele' + '</br>' + 'dentes de alho esmagados' + '</br>' + 'pimentão' + '</br>' + 'amendoim torrado',
+        composicao: 'Prato principal',
         acompanhamento: 'arroz' + '</br>' + 'feijão carioca' + '</br>' + 'espaguete ao molho de tomate' + '</br>' + ' acelga ao molho de laranja' + '</br>' + 'tomate com orégano' + '</br>' + 'abobrinha com milho',
         descricao: 'Quando você ingere 100g de Frango Xadrez você está consumindo:' + '</br>'
             + '553mg de Sódio' + '</br>'
@@ -293,7 +291,7 @@ let dados = {
     },
     lombo_assado: {
         name: 'Lombo',
-        composicao: 'lombo' + '</br>' + 'cebolas' + '</br >' + 'dentes de alho' + '</br >' + 'Alecrim' + '</br >' + 'vinho branco' + '</br >' + 'suco de laranja' + '</br >' + 'suco de limão',
+        composicao: 'Prato principal',
         acompanhamento: 'arroz' + '</br >' + 'tutu de feijão' + '</br >' + 'couve ao alho' + '</br >' + ' alface lisa' + '</br >' + 'tomate com cheiro verde' + '</br >' + 'lentilha refogada',
         descricao: 'Quando você ingere 100g de Lombo Assado você está consumindo:' + '</br>'
             + '19.5mg de Cálcio' + '</br>'
@@ -315,7 +313,7 @@ let dados = {
             + 'Cobre 0,1 ug' + '</br>'
             + 'Zinco 0,3 mg' + '</br>'
             + 'Sódio 2,9 mg' + '</br>',
-        acompanhamento: ''
+        acompanhamento: ' '
     },
     batata_doce: {
         name: 'Batata doce',
@@ -366,7 +364,7 @@ let dados = {
             + 'Potássio 314,9 mg' + '</br>'
             + 'Zinco 0,2 mg' + '</br>'
             + 'Sódio 11,5 mg' + '</br>',
-        composicao: ' ',
+        composicao: 'acompanhamento',
         acompanhamento: ' ',
     },
 
@@ -380,7 +378,7 @@ let dados = {
             + 'Cobre 0,15 ug' + '</br>'
             + 'Zinco 0,8 mg' + '</br>'
             + 'Sódio 5 mg' + '</br>',
-        composicao: ' ',
+        composicao: 'tempero',
         acompanhamento: ' ',
     },
 
@@ -392,7 +390,7 @@ let dados = {
             + 'Potássio 131 mg' + '</br>'
             + 'Cobre 0,11ug' + '</br>'
             + 'Zinco 0,1 mg' + '</br>',
-        composicao: ' ',
+        composicao: 'acompanhamento',
         acompanhamento: ' ',
     },
     repolho: {
@@ -405,7 +403,7 @@ let dados = {
             + 'Cobre 0,02 ug' + '</br>'
             + 'Zinco 0,2 mg' + '</br>'
             + 'Sódio 4 mg' + '</br>',
-        composicao: ' ',
+        composicao: 'salada ',
         acompanhamento: ' ',
     },
 
@@ -419,7 +417,7 @@ let dados = {
             + 'Cobre 0,90 ug' + '</br>'
             + 'Zinco 0,3 mg' + '</br>'
             + 'Sódio 2 m' + '</br>',
-        composicao: ' ',
+        composicao: 'salada ',
         acompanhamento: ' ',
     },
 
@@ -434,7 +432,7 @@ let dados = {
             + 'Cobre 0, 04ug' + '<br>'
             + 'Zinco 0, 2 mg' + '<br>'
             + 'Sódio 7 mg' + '<br>',
-        composicao: ' ',
+        composicao: 'salada',
         acompanhamento: ' '
     },
 
@@ -448,7 +446,7 @@ let dados = {
             + 'Cobre 0,06 ug' + '</br>'
             + 'Zinco 0,3 mg' + '</br>'
             + 'Sódio 17 mg' + '</br>',
-        descricao: ' ',
+        descricao: 'salada',
         acompanhamento: ' '
     },
 
@@ -462,7 +460,7 @@ let dados = {
             + 'Potássio 245 mg' + '</br>'
             + 'Cobre 0,04 ug' + '</br>'
             + 'Zinco 0,4 mg' + '</br>',
-        composicao: ' ',
+        composicao: 'salada',
         acompanhamento: ' '
     },
 
@@ -476,7 +474,7 @@ let dados = {
             + 'Cobre 0,07 ug' + '</br>'
             + 'Zinco 2,7 mg' + '</br>'
             + 'Sódio 501 mg' + '</br>',
-        composicao: ' ',
+        composicao: 'acompanhamto',
         acompanhamento: ' '
     },
 
@@ -490,7 +488,7 @@ let dados = {
             + 'Cobre 0,10 ug' + '</br>'
             + 'Zinco 0,7 mg' + '</br>'
             + 'Sódio 7 mg' + '</br>',
-        composicao: ' ',
+        composicao: 'acompanhamento ',
         acompanhamento: ' '
     },
 
@@ -503,7 +501,7 @@ let dados = {
             + 'Potássio 174 mg' + '</br>'
             + 'Cobre 0,04 ug' + '</br>'
             + 'Zinco 0,1 mg' + '</br>',
-        composicao: ' ',
+        composicao: 'sobremesa',
         acompanhamento: ' ',
     },
     abobrinha: {
@@ -516,7 +514,7 @@ let dados = {
             + 'Cobre 0,01 ug' + '</br>'
             + 'Zinco 0,3 mg' + '</br>'
             + 'Sódio 1 mg' + '</br>',
-        composicao: ' ',
+        composicao: 'acompanhamento',
         acompanhamento: ' '
     },
     batata: {
@@ -530,7 +528,7 @@ let dados = {
             + 'Zinco 0,2 mg' + '</br>'
             + 'Sódio 2 mg' + '</br>',
         acompanhamento: 'Pide esta no purê que contem batata, manteiga, leite, ovo',
-        composicao: ' ',
+        composicao: 'acompanhamento',
 
     },
     manteiga: {
@@ -542,8 +540,8 @@ let dados = {
             + 'Potássio   5 mg		       15' + '</br>'
             + 'Cobre 0,04 ug' + '</br>'
             + ' Sódio 4mg' + '</br>',
-        acompanhamento: '',
-        composicao: '',
+        acompanhamento: ' ',
+        composicao: 'acompanhamento',
     },
 
     leite: {
@@ -554,8 +552,8 @@ let dados = {
             + 'Cobre 0,02 ug' + '</br>'
             + 'Zinco 0,4 mg' + '</br>'
             + 'Sódio 64 mg' + '</br>',
-        acompanhamento: '',
-        composicao: '',
+        acompanhamento: ' ',
+        composicao: ' ',
     },
 
     ovo: {
@@ -567,284 +565,288 @@ let dados = {
             + 'Cobre 0,06 ug' + '</br>'
             + 'Zinco 1,1 mg' + '</br>'
             + 'Sódio 168 mg' + '</br>',
-        composicao: ' ',
+        composicao: 'acompanhamento',
         acompanhamento: ' ',
     },
-/*(Ervilha) falta
-Manganês  mg
-Magnésio  mg
-Fosforo  mg
-Ferro  mg
-Potássio  mg
-Cobre ug
-Zinco  mg
-Sódio  mg
-
-Guarnição
-Salpicão (Contem ) falta
-Manganês  mg
-Magnésio  mg
-Fosforo  mg
-Ferro  mg
-Potássio  mg
-Cobre ug
-Zinco  mg
-Sódio  mg
-
-Prato 4 
-
-
- 
-Guarnição
-Polenta com tomate e queijo
-(Angu) falta
-Manganês  mg
-Magnésio  mg
-Fosforo  mg
-Ferro  mg
-Potássio  mg
-Cobre ug
-Zinco  mg
-Sódio  mg
-
-(Passas) falta
-Manganês  mg
-Magnésio  mg
-Fosforo  mg
-Ferro  mg
-Potássio  mg
-Cobre ug
-Zinco  mg
-Sódio  mg
-
-
-
-Prato 6
-
-Prato principal falta
-Bife bovino acebolado
-(Bife bovino)
-Manganês  mg
-Magnésio  mg
-Fosforo  mg
-Ferro  mg
-Potássio  mg
-Cobre ug
-Zinco  mg
-Sódio  mg
-
-Cebola
-Manganês  mg
-Magnésio  mg
-Fosforo  mg
-Ferro  mg
-Potássio  mg
-Cobre ug
-Zinco  mg
-Sódio  mg
-*/ 
-
-
-alface_roxa:{
-    name: 'Leite',
-descricao:'Manganês 0,12 mg'+'</br>'
-+'Magnésio 9 mg'+'</br>'
-+'Fosforo 51 mg'+'</br>'
-+'Ferro 2,5 mg'+'</br>'
-+'Potássio 308 mg'+'</br>'
-+'Cobre 0,04ug'+'</br>'
-+'Zinco 0,2 mg'+'</br>'
-+'Sódio 7 mg'+'</br>'
-},
-
-pepino:{
-    name: 'Leite',
-descricao:'Manganês 0,08 mg'+'</br>'
-+'Magnésio 9 mg'+'</br>'
-+'Fosforo 12 mg'+'</br>'
-+'Ferro 0,1 mg'+'</br>'
-+'Potássio 154 mg'+'</br>'
-+'Cobre 0,04 ug'+'</br>'
-+'Zinco 0,1 mg'+'</br>'
-},
+    /*(Ervilha) falta
+    Manganês  mg
+    Magnésio  mg
+    Fosforo  mg
+    Ferro  mg
+    Potássio  mg
+    Cobre ug
+    Zinco  mg
+    Sódio  mg
+    
+    Guarnição
+    Salpicão (Contem ) falta
+    Manganês  mg
+    Magnésio  mg
+    Fosforo  mg
+    Ferro  mg
+    Potássio  mg
+    Cobre ug
+    Zinco  mg
+    Sódio  mg
+    
+    Prato 4 
+    
+    
+     
+    Guarnição
+    Polenta com tomate e queijo
+    (Angu) falta
+    Manganês  mg
+    Magnésio  mg
+    Fosforo  mg
+    Ferro  mg
+    Potássio  mg
+    Cobre ug
+    Zinco  mg
+    Sódio  mg
+    
+    (Passas) falta
+    Manganês  mg
+    Magnésio  mg
+    Fosforo  mg
+    Ferro  mg
+    Potássio  mg
+    Cobre ug
+    Zinco  mg
+    Sódio  mg
+    
+    
+    
+    Prato 6
+    
+    Prato principal falta
+    Bife bovino acebolado
+    (Bife bovino)
+    Manganês  mg
+    Magnésio  mg
+    Fosforo  mg
+    Ferro  mg
+    Potássio  mg
+    Cobre ug
+    Zinco  mg
+    Sódio  mg
+    
+    Cebola
+    Manganês  mg
+    Magnésio  mg
+    Fosforo  mg
+    Ferro  mg
+    Potássio  mg
+    Cobre ug
+    Zinco  mg
+    Sódio  mg
+    */
 
 
+    alface_roxa: {
+        name: 'Alface Roxa',
+        descricao: 'Manganês 0,12 mg' + '</br>'
+            + 'Magnésio 9 mg' + '</br>'
+            + 'Fosforo 51 mg' + '</br>'
+            + 'Ferro 2,5 mg' + '</br>'
+            + 'Potássio 308 mg' + '</br>'
+            + 'Cobre 0,04ug' + '</br>'
+            + 'Zinco 0,2 mg' + '</br>'
+            + 'Sódio 7 mg' + '</br>',
+        composicao: 'salada',
+        acompanhamento: ' ',
+    },
 
-
-Mussarela:{
-    name: 'Leite',
-descricao:+'Manganês 0,03 mg'+'</br>'
-+'Magnésio 24 mg'+'</br>'
-+'Fosforo 470 mg'+'</br>'
-+'Ferro 0,3 mg'+'</br>'
-+'Potássio 62 mg'+'</br>'
-+'Cobre 0,08 ug'+'</br>'
-+'Zinco 3,5 mg'+'</br>'
-+'Sódio 581 mg'+'</br>'
-},
-Couve:{
-    name: 'Leite',
-    descricao:'Manganês 0,1 mg'+'</br>'
-+'Magnésio 26,2 mg'+'</br>'
-+'Fosforo 33,4 mg'+'</br>'
-+'Ferro 0,5 mg'+'</br>'
-+'Potássio 314,9 mg'+'</br>'
-+'Zinco 0,2 mg'+'</br>'
-+'Sódio 11,5 mg'+'</br>'
-},
-Rabanete:{  
-    name: 'Leite',
-    descricao:'Manganês 0,07 mg'+'</br>'
-+'Magnésio 10 mg'+'</br>'
-+'Fosforo 25 mg'+'</br>'
-+'Ferro 0,4 mg'+'</br>'
-+'Potássio 328 mg'+'</br>'
-+'Cobre 0,02 ug'+'</br>'
-+'Zinco 0,2 mgv'
-+'Sódio 11 mg'+'</br>'
-},
-/*
-Moranga falta
-Manganês  mg
-Magnésio  mg
-Fosforo  mg
-Ferro  mg
-Potássio  mg
-Cobre ug
-Zinco  mg
-Sódio  mg
-
-Guarnição
-Macarronese falta
-Manganês  mg
-Magnésio  mg
-Fosforo  mg
-Ferro  mg
-Potássio  mg
-Cobre ug
-Zinco  mg
-Sódio  mg
-
-Prato 8
-
-
-Salada
-
-
-Salada tropical falta
-Manganês  mg
-Magnésio  mg
-Fosforo  mg
-Ferro  mg
-Potássio  mg
-Cobre ug
-Zinco  mg
-Sódio  mg
-*/
- 
-
-psimentão:{
-    name: 'Leite',
-descricao:'Manganês 0,14 mg'+'</br>'
-+'Magnésio 11 mg'+'</br>'
-+'Fosforo 14 mg'+'</br>'
-+'Ferro 0,4 mg'+'</br>'
-+'Potássio 174 mg'+'</br>'
-+'Cobre 0,07 ug'+'</br>'
-+'Zinco 0,1 mg'+'</br>'
-},
-Bife_de_frango:{
-    name: 'Leite',
-descricao:'Manganês 0,1 mg'+'</br>'
-+'Magnésio 34,8 mg'+'</br>'
-+'Fosforo 249,4 mg'+'</br>'
-+'Ferro 1,1 mg'+'</br>'
-+'Potássio 407,6 mg'+'</br>'
-+'Cobre 0,1 ug'+'</br>'
-+'Zinco 0,8 mg'+'</br>'
-+'Sódio 122,3 mg'+'</br>'
-},
-//(Bacon) falta
+    pepino: {
+        name: 'Pepino',
+        descricao: 'Manganês 0,08 mg' + '</br>'
+            + 'Magnésio 9 mg' + '</br>'
+            + 'Fosforo 12 mg' + '</br>'
+            + 'Ferro 0,1 mg' + '</br>'
+            + 'Potássio 154 mg' + '</br>'
+            + 'Cobre 0,04 ug' + '</br>'
+            + 'Zinco 0,1 mg' + '</br>',
+        composicao: 'salada',
+        acompanhamento: ' ',
+    },
 
 
 
-pimentão:{
-    name: 'Leite',
-    descricao:'Manganês 0,14 mg'+'</br>'
-+'Magnésio 11 mg'+'</br>'
-+'Fosforo 14 mg'+'</br>'
-+'Ferro 0,4 mg'+'</br>'
-+'Potássio 174 mg'+'</br>'
-+'Cobre 0,07 ug'+'</br>'
-+'Zinco 0,1 mg'+'</br>'
-},
-/*Vinagre
-Manganês  mg
-Magnésio  mg
-Fosforo  mg
-Ferro  mg
-Potássio  mg
-Cobre ug
-Zinco  mg
-Sódio  mg
-*/
 
-Chuchu:{
-    name: 'Leite',
-    descricao:'Manganês 0,07 mg'+'</br>'
-+'Magnésio 7 mg'+'</br>'
-+'Fosforo 13 mg'+'</br>'
-+'Ferro 0,1 mg'+'</br>'
-+'Potássio 54 mg'+'</br>'
-+'Zinco 0,1 mg'+'</br>'
-+'Sódio 2 mg'+'</br>'
-},
-//Milho
-/*(Costelinha)
-Manganês  mg
-Magnésio  mg
-Fosforo  mg
-Ferro  mg
-Potássio  mg
-Cobre ug
-Zinco  mg
-Sódio  mg
-*/
- 
-alface_crespa:{
-    name: 'Leite',
-    descricao:'Manganês 0,2 mg'+'</br>'
-+'Magnésio 11,0 mg'+'</br>'
-+'Fosforo 25,8 mg'+'</br>'
-+'Ferro 0,4 mg'+'</br>'
-+'Potássio 267,1 mg'+'</br>'
-+'Zinco 0,3 mg'+'</br>'
-+'Sódio 3,4 mg'+'</br>' 
-},
+    mussarela: {
+        name: 'Mussarela',
+        composicao: 'acompanhamento',
+        acompanhamento: ' ',
+        descricao: 'Manganês 0,03 mg' + '</br>'
+            + 'Magnésio 24 mg' + '</br>'
+            + 'Fosforo 470 mg' + '</br>'
+            + 'Ferro 0,3 mg' + '</br>'
+            + 'Potássio 62 mg' + '</br>'
+            + 'Cobre 0,08 ug' + '</br>'
+            + 'Zinco 3,5 mg' + '</br>'
+            + 'Sódio 581 mg' + '</br>'
+    },
+    couve: {
+        name: 'Couve',
+        composicao: 'acompanhamento',
+        acompanhamento: ' ',
+        descricao: 'Manganês 0,1 mg' + '</br>'
+            + 'Magnésio 26,2 mg' + '</br>'
+            + 'Fosforo 33,4 mg' + '</br>'
+            + 'Ferro 0,5 mg' + '</br>'
+            + 'Potássio 314,9 mg' + '</br>'
+            + 'Zinco 0,2 mg' + '</br>'
+            + 'Sódio 11,5 mg' + '</br>'
+        //composicao:'acompanhamento',
+    },
+    rabanete: {
+        name: 'Rabanete',
+        composicao: 'salada',
+        descricao: 'Manganês 0,07 mg' + '</br>'
+            + 'Magnésio 10 mg' + '</br>'
+            + 'Fosforo 25 mg' + '</br>'
+            + 'Ferro 0,4 mg' + '</br>'
+            + 'Potássio 328 mg' + '</br>'
+            + 'Cobre 0,02 ug' + '</br>'
+            + 'Zinco 0,2 mgv'
+            + 'Sódio 11 mg' + '</br>'
+    },
+    /*
+    Moranga falta
+    Manganês  mg
+    Magnésio  mg
+    Fosforo  mg
+    Ferro  mg
+    Potássio  mg
+    Cobre ug
+    Zinco  mg
+    Sódio  mg
+    
+    Guarnição
+    Macarronese falta
+    Manganês  mg
+    Magnésio  mg
+    Fosforo  mg
+    Ferro  mg
+    Potássio  mg
+    Cobre ug
+    Zinco  mg
+    Sódio  mg
+    
+    Prato 8
+    
+    
+    Salada
+    
+    
+    Salada tropical falta
+    Manganês  mg
+    Magnésio  mg
+    Fosforo  mg
+    Ferro  mg
+    Potássio  mg
+    Cobre ug
+    Zinco  mg
+    Sódio  mg
+    */
 
-Manjericão:{
-    name: 'Leite',
-    descricao:'Manganês 0,17 mg'+'</br>'
-+'Magnésio  mg'+'</br>'
-+'Fosforo 40 mg'+'</br>'
-+'Ferro 1,0 mg'+'</br>'
-+'Potássio 252 mg'+'</br>'
-+'Cobre 0,16 ug'+'</br>'
-+'Zinco 0,5 mg'+'</br>'
-+'Sódio 4 mg'+'</br>'
-},
 
-Repolho:{
-    name: 'Leite',
-    descricao:'Manganês 0,13 mg'+'</br>'
-+'Magnésio 9 mg'+'</br>'
-+'Fosforo 14 mg'+'</br>'
-+'Ferro 0,2 mg'+'</br>'
-+'Potássio 150 mg'+'</br>'
-+'Cobre 0,02 ug'+'</br>'
-+'Zinco 0,2 mg'+'</br>'
-+'Sódio 4 mg'+'</br>'
-},/*
+    pimentão: {
+        name: 'Pimentão',
+        composicao: 'salada',
+        descricao: 'Manganês 0,14 mg' + '</br>'
+            + 'Magnésio 11 mg' + '</br>'
+            + 'Fosforo 14 mg' + '</br>'
+            + 'Ferro 0,4 mg' + '</br>'
+            + 'Potássio 174 mg' + '</br>'
+            + 'Cobre 0,07 ug' + '</br>'
+            + 'Zinco 0,1 mg' + '</br>'
+    },
+    bife_de_frango: {
+        name: 'bife_de_frango:',
+        composicao: 'prato principal',
+        descricao: 'Manganês 0,1 mg' + '</br>'
+            + 'Magnésio 34,8 mg' + '</br>'
+            + 'Fosforo 249,4 mg' + '</br>'
+            + 'Ferro 1,1 mg' + '</br>'
+            + 'Potássio 407,6 mg' + '</br>'
+            + 'Cobre 0,1 ug' + '</br>'
+            + 'Zinco 0,8 mg' + '</br>'
+            + 'Sódio 122,3 mg' + '</br>'
+    },
+    //(Bacon) falta
+
+    /*Vinagre
+    Manganês  mg
+    Magnésio  mg
+    Fosforo  mg
+    Ferro  mg
+    Potássio  mg
+    Cobre ug
+    Zinco  mg
+    Sódio  mg
+    */
+
+    chuchu: {
+        name: 'chuchu',
+        composicao: 'salada',
+        descricao: 'Manganês 0,07 mg' + '</br>'
+            + 'Magnésio 7 mg' + '</br>'
+            + 'Fosforo 13 mg' + '</br>'
+            + 'Ferro 0,1 mg' + '</br>'
+            + 'Potássio 54 mg' + '</br>'
+            + 'Zinco 0,1 mg' + '</br>'
+            + 'Sódio 2 mg' + '</br>'
+    },
+    //Milho
+    /*(Costelinha)
+    Manganês  mg
+    Magnésio  mg
+    Fosforo  mg
+    Ferro  mg
+    Potássio  mg
+    Cobre ug
+    Zinco  mg
+    Sódio  mg
+    */
+
+    alface_crespa: {
+        name: 'alface_crespa',
+        composicao: 'salada',
+        descricao: 'Manganês 0,2 mg' + '</br>'
+            + 'Magnésio 11,0 mg' + '</br>'
+            + 'Fosforo 25,8 mg' + '</br>'
+            + 'Ferro 0,4 mg' + '</br>'
+            + 'Potássio 267,1 mg' + '</br>'
+            + 'Zinco 0,3 mg' + '</br>'
+            + 'Sódio 3,4 mg' + '</br>'
+    },
+
+    manjericão: {
+        name: 'Manjericão',
+        composicao: 'salada',
+        descricao: 'Manganês 0,17 mg' + '</br>'
+            + 'Magnésio  mg' + '</br>'
+            + 'Fosforo 40 mg' + '</br>'
+            + 'Ferro 1,0 mg' + '</br>'
+            + 'Potássio 252 mg' + '</br>'
+            + 'Cobre 0,16 ug' + '</br>'
+            + 'Zinco 0,5 mg' + '</br>'
+            + 'Sódio 4 mg' + '</br>'
+    },
+
+    repolho: {
+        name: 'repolho',
+        composicao: 'salada',
+        descricao: 'Manganês 0,13 mg' + '</br>'
+            + 'Magnésio 9 mg' + '</br>'
+            + 'Fosforo 14 mg' + '</br>'
+            + 'Ferro 0,2 mg' + '</br>'
+            + 'Potássio 150 mg' + '</br>'
+            + 'Cobre 0,02 ug' + '</br>'
+            + 'Zinco 0,2 mg' + '</br>'
+            + 'Sódio 4 mg' + '</br>'
+    },/*
 (Vagem) falta
 
 Guarnição
@@ -860,121 +862,116 @@ Cobre ug
 Zinco  mg
 Sódio  mg
 */
-Banana:{
-    name: 'Leite',
-    descricao:'Fósforo 26,7mg'+'</br>'
-    +'Manganês 0,1mg'+'</br>'
-    +'Magnésio 27,8mg'+'</br>'
-    +'Ferro 0,4mg'+'</br>'
-    +'Potássio 376,5mg'+'</br>'
-    +'Cobre 0,1ug'+'</br>'
-    +'Zinco 0,2m'+'</br>'
-},
-Farinha_de_mandioca:{
-    name: 'Leite',
-    descricao:'Manganês 0,37 mg'+'</br>'
-+'Magnésio  mg'+'</br>'
-+'Fosforo 39 mg'+'</br>'
-+'Ferro 1,2 mg'+'</br>'
-+'Potássio 328 mg'+'</br>'
-+'Zinco 0,4 mg'+'</br>'
-+'Sódio 10 mg'+'</br>'
-},
-/*
-Guarnição
-Batata palha falta
-Manganês  mg
-Magnésio  mg
-Fosforo  mg
-Ferro  mg
-Potássio  mg
-Cobre ug
-Zinco  mg
-Sódio  mg
+    banana: {
+        name: 'Banana',
+        composicao: 'sobremesa',
+        descricao: 'Fósforo 26,7mg' + '</br>'
+            + 'Manganês 0,1mg' + '</br>'
+            + 'Magnésio 27,8mg' + '</br>'
+            + 'Ferro 0,4mg' + '</br>'
+            + 'Potássio 376,5mg' + '</br>'
+            + 'Cobre 0,1ug' + '</br>'
+            + 'Zinco 0,2m' + '</br>'
+    },
+    farinha_de_mandioca: {
+        name: 'farinha de mandioca',
+        composicao: 'aompanhamento',
+        descricao: 'Manganês 0,37 mg' + '</br>'
+            + 'Magnésio  mg' + '</br>'
+            + 'Fosforo 39 mg' + '</br>'
+            + 'Ferro 1,2 mg' + '</br>'
+            + 'Potássio 328 mg' + '</br>'
+            + 'Zinco 0,4 mg' + '</br>'
+            + 'Sódio 10 mg' + '</br>'
+    },
+    /*
+    Guarnição
+    Batata palha falta
+    Manganês  mg
+    Magnésio  mg
+    Fosforo  mg
+    Ferro  mg
+    Potássio  mg
+    Cobre ug
+    Zinco  mg
+    Sódio  mg
+    
+    Prato 12
+    */
+    Almeirão: {
+        name: 'Almeirão',
+        composicao: 'acompanhamento',
+        descricao: 'Manganês 0,17 mg' + '</br>'
+            + 'Magnésio 21 mg' + '</br>'
+            + 'Fosforo 40 mg' + '</br>'
+            + 'Ferro 0,7 mg' + '</br>'
+            + 'Potássio 369 mg' + '</br>'
+            + 'Cobre 0,10 ug' + '</br>'
+            + 'Zinco 0,3 mg' + '</br>'
+            + 'Sódio 2 mg' + '</br>'
+    },
 
-Prato 12
-*/
-Almeirão:{
-    name: 'Leite',
-    descricao:'Manganês 0,17 mg'+'</br>'
-+'Magnésio 21 mg'+'</br>'
-+'Fosforo 40 mg'+'</br>'
-+'Ferro 0,7 mg'+'</br>'
-+'Potássio 369 mg'+'</br>'
-+'Cobre 0,10 ug'+'</br>'
-+'Zinco 0,3 mg'+'</br>'
-+'Sódio 2 mg'+'</br>'
-},
-
-Chuchu:{ 
-    name: 'Leite',
-    descricao:'Manganês 0,07 mg'+'</br>'
-+'Magnésio 7 mg'+'</br>'
-+'Fosforo 13 mg'+'</br>'
-+'Ferro 0,1 mg'+'</br>'
-+'Potássio 54 mg'+'</br>'
-+'Zinco 0,1 mg'+'</br>'
-+'Sódio 2 mg'+'</br>'
-},
-/*
-Guarnição
-Creme de milho falta
-Manganês  mg
-Magnésio  mg
-Fosforo  mg
-Ferro  mg
-Potássio  mg
-Cobre ug
-Zinco  mg
-Sódio  mg
-
-Bisteca falta
-Manganês  mg
-Magnésio  mg
-Fosforo  mg
-Ferro  mg
-Potássio  mg
-Cobre ug
-Zinco  mg
-Sódio  mg
-
-
-
-
-Prato principal
-Bife acebolado falta
-Manganês  mg
-Magnésio  mg
-Fosforo  mg
-Ferro  mg
-Potássio  mg
-Cobre ug
-Zinco  mg
-Sódio  mg
-
-*/
-Rabanete:{
-    name: 'Leite',
-    descricao:'Manganês 0,07 mg'+'</br>'
-+'Magnésio 10 mg'+'</br>'
-+'Fosforo 25 mg'+'</br>'
-+'Ferro 0,4 mg'+'</br>'
-+'Potássio 328 mg'+'</br>'
-+'Cobre 0,02 ug'+'</br>'
-+'Zinco 0,2 mg'+'</br>'
-+'Sódio 11 mg'+'</br>'
-},
-Nabo:{
-    name: 'Leite',
-    descricao:'Manganês 4,42 mg'+'</br>'
-+'Magnésio 15 mg'+'</br>'
-+'Fosforo 17 mg'+'</br>'
-+'Ferro 0,2 mg'+'</br>'
-+'Potássio 280 mg'+'</br>'
-+'Cobre 0,02 ug'+'</br>'
-+'Zinco 0,2 mg'+'</br>'
-+'Sódio 2 mg'+'</br>'
-}
+    /*
+    Guarnição
+    Creme de milho falta
+    Manganês  mg
+    Magnésio  mg
+    Fosforo  mg
+    Ferro  mg
+    Potássio  mg
+    Cobre ug
+    Zinco  mg
+    Sódio  mg
+    
+    Bisteca falta
+    Manganês  mg
+    Magnésio  mg
+    Fosforo  mg
+    Ferro  mg
+    Potássio  mg
+    Cobre ug
+    Zinco  mg
+    Sódio  mg
+    
+    
+    
+    
+    Prato principal
+    Bife acebolado falta
+    Manganês  mg
+    Magnésio  mg
+    Fosforo  mg
+    Ferro  mg
+    Potássio  mg
+    Cobre ug
+    Zinco  mg
+    Sódio  mg
+    
+    */
+    rabanete: {
+        name: 'Rabanete',
+        composicao: 'salada',
+        descricao: 'Manganês 0,07 mg' + '</br>'
+            + 'Magnésio 10 mg' + '</br>'
+            + 'Fosforo 25 mg' + '</br>'
+            + 'Ferro 0,4 mg' + '</br>'
+            + 'Potássio 328 mg' + '</br>'
+            + 'Cobre 0,02 ug' + '</br>'
+            + 'Zinco 0,2 mg' + '</br>'
+            + 'Sódio 11 mg' + '</br>'
+    },
+    nabo: {
+        name: 'Nabo',
+        composicao: 'salada',
+        descricao: 'Manganês 4,42 mg' + '</br>'
+            + 'Magnésio 15 mg' + '</br>'
+            + 'Fosforo 17 mg' + '</br>'
+            + 'Ferro 0,2 mg' + '</br>'
+            + 'Potássio 280 mg' + '</br>'
+            + 'Cobre 0,02 ug' + '</br>'
+            + 'Zinco 0,2 mg' + '</br>'
+            + 'Sódio 2 mg' + '</br>'
+    }
 };
 busca.addEventListener('click', function () {
     /*aqui adiciona o objeto pesquisado*/
