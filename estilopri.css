@@ -2,6 +2,7 @@
 body,ul{
   margin: 0;
   border: 0;
+  overflow-x: hidden;
 }
 body{
   background-image: url(imagens/plano.jpg);
@@ -9,6 +10,7 @@ body{
   background-size: 100%;
   background-repeat: no-repeat;
   background-color: #000;
+  
 }
 
 header{
@@ -39,6 +41,8 @@ nav li{
 }
 nav{
   background-color: #60c4db;
+  width: 100%;
+    position: relative;
 
 }
 ul{
@@ -51,6 +55,7 @@ ul{
   font-family: 'Baloo', cursive;
   background-color: #28a745;
   color: white;
+ 
 }
 .t>p{
   text-align:center;
@@ -112,10 +117,14 @@ h5{
     border: transparent;
     position: relative;
     top:1em;
+    margin-left: 100px;
+    margin-right: 100px;
 }
 .objetivo{
   background-color: #ffffffeb;
   border: transparent;
+  margin-left: 100px;
+    margin-right: 100px;
 
 }
 footer{
@@ -128,7 +137,80 @@ border:0;
  font-size: 17px;
 }
 .estilo{
-  margin-right: 5em;
-  margin-left: 5em;
+  
+}
+@media screen and (max-width: 980px) {
+
+  h1.titulo{
+    width:auto;
+  }
+  .t{
+    width: auto;
+  }
+
+}
+@media screen and (max-width: 700px) {
+ 
+  body{
+      width: auto;
+      
+  }
+  h1.titulo {
+      width: auto;
+  }
+  .t{
+    width: auto;
+  }
+
+}
+@media screen and (max-width: 500px) {
+  h1.titulo{
+    width:auto;
+  }
+  li{
+    width:auto;
+  }
+  h1 {
+      font-size: 24px;
+  }
+  .t{
+    
+    position: relative;
+    left: -6em;
+  }
+  .t>p{
+    padding-left: 2px;
+    left: 5em;
+    position: relative;
+  }
+  .t>h2{
+    position: relative;
+    left: 3em;
+  }
+  .introducao{
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  .objetivo{
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  #gif{
+    width: 20em;
+    position: relative;
+    left: 6em;
+  }
+  nav ul{
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+  body{
+    background-image: url(imagens/plano.jpg);
+  background-attachment: fixed;
+  background-size: 100%;
+  background-repeat:inherit;
+  background-color: #000;
+  }
+  
 }
 

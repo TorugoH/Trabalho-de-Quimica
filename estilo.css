@@ -2,7 +2,8 @@
 nav>h1{
   text-align: center;
   font-family: 'Baloo Bhai', cursive;
-  background-color:#0ffb39ad;
+  background-color:#28a745;
+  height: 2em;
 }
 ul{
   list-style-type: none;
@@ -35,8 +36,8 @@ left: 6em;
 display: inline-block;
 position: relative;
 left: -2em;
- height: 55em
- top:-2em;
+ height: 55em;
+ 
 }
 
 #elementocinco{
