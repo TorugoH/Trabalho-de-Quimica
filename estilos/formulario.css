@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css?family=Baloo&display=swap');
+body,head,h1,ul{
+    margin: 0;
+    border: 0;
+    overflow-x: hidden;
+
+}
+.info{
+    position:relative;
+    text-align: center;
+    padding-top: 2em;
+}
+.busca{
+    border-radius: 2px;
+}
+.info-body{
+    position: relative;
+    text-align:justify;
+    margin-left: 30em;
+    margin-right: 30em;
+    top: 5em;
+    border-left:solid 1px black;
+    border-top:solid 1px black;
+    border-right: solid 1px black;
+    border-bottom: solid 1px black;
+    padding: 15px; 
+    width: 35em; 
+    left: -5em; 
+}
+#tudo{
+  position: relative;
+  top:-5em;
+}
+h2{
+    background-color: #60c4db;
+    width: 5em;
+    padding: 16px;
+    color: white;
+    font-weight: bolder;
+    font-family: 'Baloo', cursive;
+    position: relative;
+    left: -0.2em;
+    top: -4.4em;
+}
+nav{
+    text-align: center;
+}
+nav>ul{
+    list-style: none;
+}
+nav>ul>li{
+    display: inline-block;
+    letter-spacing: 2px;
+    font-size: 20px;
+    padding: 30px;
+    padding-left: 65px;
+    padding-right: 65px;
+    text-decoration: none;
+    font-weight: bolder;
+    font-family: 'Baloo', cursive;
+}
+.pagina:hover{
+    color: chartreuse;
+
+}
+.pagina{
+    text-decoration:none; 
+    color: white;
+
+}
+
+body{
+
+}
+nav>ul{
+    background-color:#28a745;
+    /*60c4db*/
+}
+.item{
+    height:3.5em;
+    width:30em;
+}
+.busca:hover{
+    color:  chartreuse;
+}
+.busca{
+    height:3em;
+    width:7em;
+    background-color: #60c4db;
+    color:white;
+    border:solid 1px black;
+    
+
+}
+h1{
+    margin: 0;
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Baloo', cursive;
+    background-color:;
+    color:;
+    
+}
+p{
+    font-size: 20px;
+    top: 0.2em;
+    position: initial;
+}
+
+@media screen and (max-width: 980px) {
+
+    h1{
+      width:auto;
+    }
+    .t{
+      width: auto;
+    }
+  
+  }
+  @media screen and (max-width: 700px) {
+   
+    body{
+        width: auto;
+        
+    }
+    h1{
+        width: auto;
+    }
+    .t{
+      width: auto;
+    }
+  
+  }
+  @media screen and (max-width: 500px) {
+    h1{
+      width:auto;
+    }
+    nav>ul{
+      width:auto;
+    }
+    .item {
+       width: 15em;
+    }
+    .t{
+      
+      position: relative;
+      left: -6em;
+    }
+    .p{
+      padding-left: 2px;
+      left: 5em;
+      position: relative;
+    }
+    h2{
+      position: relative;
+      left: 3em;
+    }
+    
+    nav li{
+      padding-left: 5px;
+      padding-right: 5px;
+    }
+    
+  }
+  
+  

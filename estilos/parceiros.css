@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css?family=Baloo&display=swap');
+body,ul{
+    margin: 0;
+    border: 0;
+    overflow-x: hidden;
+  }
+  header{
+    background-color: white;
+  }
+  nav li{
+    display: inline-block;
+    letter-spacing: 2px;
+    font-size: 20px;
+    padding: 30px ;
+    padding-left: 65px;
+    padding-right: 65px;
+    text-decoration: none;
+    font-weight: bolder;
+  }
+  nav{
+    background-color: #28a745;
+    width: 100%;
+      position: relative;
+      font-weight: bolder;
+    font-family: 'Baloo', cursive;
+  
+  }
+  .pagina:hover{
+    color: chartreuse;
+
+}
+  header a{
+      text-decoration: none;
+      color:#fff;
+  }
+  main a{
+      color:#000;
+  }
+  ul{
+     text-align:center;
+  }
+  
+
+li{
+    text-decoration: none;
+  }
+  h2{
+    text-align: center;
+    font-family: cursive;
+  }
+  h5{
+      font-family: cursive;
+  }
+  h1{
+      text-align:center;
+  }
+  h2{
+       text-align: justify;
+  }
+  
+
+ 
+  p{
+      
+ 
+    padding: 10px;
+    margin-left: 15px;
+    font-size: 18px;
+    color: black;
+    text-align: justify;
+    position: relative;
+    top: 3vh;
+    display: block;
+    margin: auto;
+    margin-left: 1em;
+    margin-right: 1em;
+  }
+  img{
+      width:20em;
+      position: relative;
+      left:2em;
+      top: 1em
+  }
+  h5{
+      text-align: justify;
+  }
+  .parceiroum{
+    margin-left: 19em;
+    margin-right: 19em;
+    position: relative;
+    left: -20em;
+    top: 3em;
+  }
+  .parceirosdois{
+  
+  margin-left: 27em;
+  margin-right: 19em;
+  
+  top: -14.5em;
+  position: relative;
+  left: 18em;
+  }

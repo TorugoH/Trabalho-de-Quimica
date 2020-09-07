@@ -13,12 +13,11 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>O que vc consome ?</title>
-        <link rel="stylesheet" href="formulario.css">
+        <link rel="stylesheet" href="estilos/formulario.css">
     </head>
     <body>
         <header>
             <nav>
-                <h1>Informações Sobre os Alimentos</h1>
                 <ul>
                     <li><a href="index.html" class="pagina">Início </a></li>
                     <li><a href="primeira.html" class="pagina">Elementos Presentes</a></li>
@@ -26,22 +25,30 @@
                     <li><a href="parceiros.html" class="pagina">Outros Trabalhos</a></li>
                 </ul>
             </nav>
+            <h1>Informações Sobre os Alimentos</h1>
         </header>
         <div class="info">
-                <input class="item" type="text">
+                <input class="item" type="text" placeholder="Escreva o alimento... ">
                 <button class="busca">pesquisar</button>
-                <p>Para os pratos com  nomes compostos ,por favor colocar underline exemplo :<strong>Lagarto ao molho madeira, coloque lagarto_ao_molho_madeira</strong> </p>
+                <h5>* undefined significa que os acompanhamentos são da sua escolha</h5>
         </div>
     <div class="info-body">
-        <h3>Prato</h3>
-        <p class="nome"></p>
-        <h3>Tipo de prato</h3>
-        <p class="descri"></p>
-        <h3>Componentes</h3>
-        <p class="resultado"></p>
-        <h3>Acompanhamento</h3>
-        <p class="acompanhamento"></p>
+        <h2>Cardapio</h2>
+        <div id="tudo">
+            <h3>Prato</h3>
+            <p class="nome"></p>
+            <hr>
+            <h3>Tipo de prato</h3>
+            <p class="descri"></p>
+            <hr>
+            <h3>Componentes</h3>
+            <p class="resultado"></p>
+            <hr>
+            <h3>Acompanhamento</h3>
+            <p class="acompanhamento"></p>
+            <hr>
+            </div>
         </div>
-        <script src="banco.js"></script>
+        <script src="js/banco.js"></script>
     </body>
 </html>
